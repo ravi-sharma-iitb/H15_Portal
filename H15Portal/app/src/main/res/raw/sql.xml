@@ -1,0 +1,1048 @@
+<sql>
+<statement>
+CREATE TABLE IF NOT EXISTS student (
+        _id INTEGER PRIMARY KEY AUTOINCREMENT, 
+        rollno VARCHAR(50),
+	roomno VARCHAR(50),
+	Name VARCHAR(50) 
+        )
+</statement>
+<statement> INSERT INTO student VALUES(1,'140070024','101 A','CHOUDHARY TUHINANGSHU')</statement>
+<statement> INSERT INTO student VALUES(2,'','101 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(3,'140070016','102 A','UPPALWAD DHANANJAY MAHAJAN')</statement>
+<statement> INSERT INTO student VALUES(4,'140070037','102 A','DEBARNAB DEBASHIS MITRA')</statement>
+<statement> INSERT INTO student VALUES(5,'140070002','103 A','MEENA KESHAV RAMAWATAR')</statement>
+<statement> INSERT INTO student VALUES(6,'140070036','103 A','MISHRA SATWIK DEB DEBADUTTA MISHRA')</statement>
+<statement> INSERT INTO student VALUES(7,'140040084','104 A','SHUBHAM KUMAR')</statement>
+<statement> INSERT INTO student VALUES(8,'140040074','104 A','SIKARWAR SOMESH RAJKUMAR')</statement>
+<statement> INSERT INTO student VALUES(9,'140040057','105 A',' GUPTA NAMAN AKHILESH')</statement>
+<statement> INSERT INTO student VALUES(10,'140040039','105 A','PRATAP CHOUDHARY ADITYA SHANKER')</statement>
+<statement> INSERT INTO student VALUES(11,'140040051','106 A','KESHAN SIDDHARTH')</statement>
+<statement> INSERT INTO student VALUES(12,'140040056','106 A','CHHABDA MOHIT DHIRAJ')</statement>
+<statement> INSERT INTO student VALUES(13,'','107 A','AMAN VIKRANI')</statement>
+<statement> INSERT INTO student VALUES(14,'','107 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(15,'140070017','108 A','KRISHNA KALPESH KSHITEENDRA')</statement>
+<statement> INSERT INTO student VALUES(16,'140070049','108 A','SHAIK MOHAMMED RAFT SK. MASTHAN')</statement>
+<statement> INSERT INTO student VALUES(17,'140070013','109 A','SHAH ABHIN SWAPNIL')</statement>
+<statement> INSERT INTO student VALUES(18,'140070041','109 A','POTHARAJU HARI PRASAD')</statement>
+<statement> INSERT INTO student VALUES(19,'140040011','110 A','GORE ABHISHEK AVINASH')</statement>
+<statement> INSERT INTO student VALUES(20,'140040053','110 A','SUMIT KUIMAR PREM NATH SAH')</statement>
+<statement> INSERT INTO student VALUES(21,'140040069','111 A','SANJEEVE KUMAR')</statement>
+<statement> INSERT INTO student VALUES(22,'140040028','111 A','VINEET MANGAL')</statement>
+<statement> INSERT INTO student VALUES(23,'140040076','112 A','GUPTA ANUJ KUMAR')</statement>
+<statement> INSERT INTO student VALUES(24,'140040088','112 A','SAHA SUBHRANGSU')</statement>
+<statement> INSERT INTO student VALUES(25,'140070032','113 A','GOYAL PULKIT RAJESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(26,'140070043','113 A','MANDA RAVI TEJA GOUD')</statement>
+<statement> INSERT INTO student VALUES(27,'140070051','114 A','GUNDETI RAVITEJA')</statement>
+<statement> INSERT INTO student VALUES(28,'140070011','114 A','SADHU ARKA')</statement>
+<statement> INSERT INTO student VALUES(29,'140070006','115 A','VARUNESH GOYAL')</statement>
+<statement> INSERT INTO student VALUES(30,'140070048','115 A','YARAJARLA VENKATA SURYA TEJA RAMARAO')</statement>
+<statement> INSERT INTO student VALUES(31,'140040097','116 A','ROSHAN NAIK')</statement>
+<statement> INSERT INTO student VALUES(32,'140040001','116 A','JAIN ANMOL VIJAYKUMAR')</statement>
+<statement> INSERT INTO student VALUES(33,'140040018','117 A','AGRAWAL GAURAV AJAY')</statement>
+<statement> INSERT INTO student VALUES(34,'140040070','117 A','KUNDU RAHUL PRADIP')</statement>
+<statement> INSERT INTO student VALUES(35,'140040029','118 A','PIYUSH JAIN PAWAN KUMAR JAIN')</statement>
+<statement> INSERT INTO student VALUES(36,'140040085','118 A','KEDIA RAJKUMAR ASHOK KEDIA')</statement>
+<statement> INSERT INTO student VALUES(37,'140070053','201 A','KONETI ACHYUTHA KRISHNA')</statement>
+<statement> INSERT INTO student VALUES(38,'140070007','201 A','GOHIL VILLY VIJAY')</statement>
+<statement> INSERT INTO student VALUES(39,'140070054','202 A','BAVINENI ESWAR')</statement>
+<statement> INSERT INTO student VALUES(40,'140070028','202 A','YADAV SHUBHAM')</statement>
+<statement> INSERT INTO student VALUES(41,'140070025','203 A','AJAY GHUNAWAT')</statement>
+<statement> INSERT INTO student VALUES(42,'140070050','203 A','SESHA VIVEK YENDURI')</statement>
+<statement> INSERT INTO student VALUES(43,'140040072','204 A','PRANAY JHUJHUNWALA SUBHASH')</statement>
+<statement> INSERT INTO student VALUES(44,'140040031','204 A','MEENA AKASH')</statement>
+<statement> INSERT INTO student VALUES(45,'140040060','205 A','CHOUDHARY PRASHANT')</statement>
+<statement> INSERT INTO student VALUES(46,'140040068','205 A','AGARWAL AYUSH')</statement>
+<statement> INSERT INTO student VALUES(47,'140040038','206 A','KUMAR BAIRWA DEEPAK')</statement>
+<statement> INSERT INTO student VALUES(48,'140040071','206 A','ADITYA ANAND')</statement>
+<statement> INSERT INTO student VALUES(49,'140070047','207 A','BOGINENI PRANEETH CHANDRA')</statement>
+<statement> INSERT INTO student VALUES(50,'140070026','207 A','GAURAV SHARMA MANOJ SHARMA')</statement>
+<statement> INSERT INTO student VALUES(51,'140070008','208 A','BOLE SWAPNIL SANJAY')</statement>
+<statement> INSERT INTO student VALUES(52,'140070044','208 A','GARIMELLA VENKATA VASISTHA')</statement>
+<statement> INSERT INTO student VALUES(53,'140070018','209 A','SAHARE APOORV YASHAWANT')</statement>
+<statement> INSERT INTO student VALUES(54,'140070045','209 A','BALAROLU PRANEETVIBHO B.SUDHAKAR')</statement>
+<statement> INSERT INTO student VALUES(55,'140040087','210 A','PRAKASH MAYANK')</statement>
+<statement> INSERT INTO student VALUES(56,'140040067','210 A','SANTOSH KUMAR MEENA HARICHARAN MEENA')</statement>
+<statement> INSERT INTO student VALUES(57,'140040030','211 A','MEENA MANISHKUMAR PRITHVIRAJ')</statement>
+<statement> INSERT INTO student VALUES(58,'140040086','211 A','MEHTA PRABHAV')</statement>
+<statement> INSERT INTO student VALUES(59,'140040089','212 A','KOTHA KONDA SAI CHARAN RAGHUVEER')</statement>
+<statement> INSERT INTO student VALUES(60,'140040004','212 A','KANWAT PRAVEENKUMAR KALURAM')</statement>
+<statement> INSERT INTO student VALUES(61,'140070020','213 A','MUNDADA SUJAY VIJAY')</statement>
+<statement> INSERT INTO student VALUES(62,'140070015','213 A','THORAWADE TEJESHWAR BHAGATSINGH')</statement>
+<statement> INSERT INTO student VALUES(63,'140070031','214 A','KUMAR AVIRAL')</statement>
+<statement> INSERT INTO student VALUES(64,'140070012','214 A','RAJAS PAWAR')</statement>
+<statement> INSERT INTO student VALUES(65,'140070019','215 A','DHAKE PUSHKARAJ MAHENDRA')</statement>
+<statement> INSERT INTO student VALUES(66,'140070004','215 A','SHETTY ANIRUDDH SHARASCHANDRA')</statement>
+<statement> INSERT INTO student VALUES(67,'140040105','216 A','Y. ABHISHEK')</statement>
+<statement> INSERT INTO student VALUES(68,'140040022','216 A','RANJAN HARSH SANJEEV')</statement>
+<statement> INSERT INTO student VALUES(69,'140040082','217 A','SINHA GAURAV R.P. SINHA')</statement>
+<statement> INSERT INTO student VALUES(70,'140040102','217 A','MADDELA SAI KARTHIK')</statement>
+<statement> INSERT INTO student VALUES(71,'140040100','218 A','BASWAPURAM AVINASH KUMAR PRAKASH')</statement>
+<statement> INSERT INTO student VALUES(72,'140040083','218 A','AGRAWAL SHUBHAM')</statement>
+<statement> INSERT INTO student VALUES(73,'140070014','301 A','CHADHA KARAN NARESH')</statement>
+<statement> INSERT INTO student VALUES(74,'140070021','301 A','NAMHA JEETKUMAR VASANTBHAI')</statement>
+<statement> INSERT INTO student VALUES(75,'14D070058','302 A','SHINGI RASHISH RAJENDRA')</statement>
+<statement> INSERT INTO student VALUES(76,'14D070030','302 A','TELGOTE KUNAL AVINASH')</statement>
+<statement> INSERT INTO student VALUES(77,'14D070048','303 A','SEN CHIRANJIV BHERU LAL')</statement>
+<statement> INSERT INTO student VALUES(78,'14D070015','303 A','SINGH UTKARSH BRAJBHUSHAN')</statement>
+<statement> INSERT INTO student VALUES(79,'140040103','304 A','MASONA SANTOSH')</statement>
+<statement> INSERT INTO student VALUES(80,'140040017','304 A','SRIVASTAVA ANIMESH')</statement>
+<statement> INSERT INTO student VALUES(81,'140040094','305 A','MAMIDI RAVANTHRAJ THRUPATHI')</statement>
+<statement> INSERT INTO student VALUES(82,'140040042','305 A','MEHTA ANURODH SUNIL')</statement>
+<statement> INSERT INTO student VALUES(83,'140040107','306 A','OBULAMPALLI MITHUN')</statement>
+<statement> INSERT INTO student VALUES(84,'140040013','306 A','RAGHAV DAGA')</statement>
+<statement> INSERT INTO student VALUES(85,'14D070034','307 A','BEMBDE SWAPNIL BABRUVAN')</statement>
+<statement> INSERT INTO student VALUES(86,'14D070053','307 A','DIXIT AMAN')</statement>
+<statement> INSERT INTO student VALUES(87,'14D070052','308 A','NIMJE YASH ASHOK')</statement>
+<statement> INSERT INTO student VALUES(88,'14D070049','308 A','AGRAWAL NISCHAL RAJESH')</statement>
+<statement> INSERT INTO student VALUES(89,'14D070044','309 A','CHOUDHARY SHANTANU VIJAY')</statement>
+<statement> INSERT INTO student VALUES(90,'14D070004','309 A','SHIROKHA KETAN TOPAN')</statement>
+<statement> INSERT INTO student VALUES(91,'140040096','310 A','BURRA LAVAN TEJA B.SAMBAIAH')</statement>
+<statement> INSERT INTO student VALUES(92,'140040007','310 A','KEJRIWAL AKSHAI ANIL')</statement>
+<statement> INSERT INTO student VALUES(93,'140040104','311 A','MUDAVATH HARISH KUMAR M.HARI KRISHNA')</statement>
+<statement> INSERT INTO student VALUES(94,'140040006','311 A','SHAH PRANAV SHAILESH')</statement>
+<statement> INSERT INTO student VALUES(95,'140040108','312 A','DUBBAKU RANA SUJAYAKAR ANANDA RAO D.')</statement>
+<statement> INSERT INTO student VALUES(96,'140040010','312 A','PATEL MOHIT MANJI')</statement>
+<statement> INSERT INTO student VALUES(97,'14D070054','313 A','RAJPOOT SAKSHAM')</statement>
+<statement> INSERT INTO student VALUES(98,'14D070006','313 A','SHREY S. GADIYA')</statement>
+<statement> INSERT INTO student VALUES(99,'14D070012','314 A','PATCHALA SRAVAN')</statement>
+<statement> INSERT INTO student VALUES(100,'14D070036','314 A','CHAVAN SAURABH SANDEEP')</statement>
+<statement> INSERT INTO student VALUES(101,'14D070041','315 A','KASLIWAL NAMAN ATUL')</statement>
+<statement> INSERT INTO student VALUES(102,'14D070055','315 A','SHARMA RAVI')</statement>
+<statement> INSERT INTO student VALUES(103,'140040040','316 A','PARTH JAIMINI')</statement>
+<statement> INSERT INTO student VALUES(104,'140040090','316 A','K.J.ADITYA')</statement>
+<statement> INSERT INTO student VALUES(105,'140040117','317 A','MEENA BRIJESH BANWARILAL MEENA')</statement>
+<statement> INSERT INTO student VALUES(106,'140040002','317 A','HEET SHAH')</statement>
+<statement> INSERT INTO student VALUES(107,'140040046','318 A','KUMAWAT RAMSWAROOP PRAHLAD SAHAI')</statement>
+<statement> INSERT INTO student VALUES(108,'140040014','318 A','VANUKURU RISHI RAVI')</statement>
+<statement> INSERT INTO student VALUES(109,'14D070032','401 A','RAJE PRANAV DEEPAK')</statement>
+<statement> INSERT INTO student VALUES(110,'14D070018','401 A','RITVIK MATHUR')</statement>
+<statement> INSERT INTO student VALUES(111,'14D070008','402 A','HIRE SARVESH SUDHIR')</statement>
+<statement> INSERT INTO student VALUES(112,'14D070063','402 A','CHAUDHRY RITWICK RAVINDER')</statement>
+<statement> INSERT INTO student VALUES(113,'14D070014','403 A','SHAH JAINAM UDAY')</statement>
+<statement> INSERT INTO student VALUES(114,'14D070051','403 A','PAWAR ANIL LAKHAN')</statement>
+<statement> INSERT INTO student VALUES(115,'','404 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(116,'','404 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(117,'148080007','405 A','SHAUNIK SAGAT')</statement>
+<statement> INSERT INTO student VALUES(118,'','405 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(119,'','406 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(120,'','406 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(121,'','407 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(122,'','407 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(123,'148080015','408 A','VERMA RAVINDER KUMAR RAMESH')</statement>
+<statement> INSERT INTO student VALUES(124,'148080004','408 A','P.P.MUFSIN')</statement>
+<statement> INSERT INTO student VALUES(125,'','409 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(126,'','409 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(127,'148080010','410 A','MOHAN V.M.VIVEK V.M.MOHANAN')</statement>
+<statement> INSERT INTO student VALUES(128,'148080013','410 A','ROHIT KUMAR LATE LAKHPAT RAI')</statement>
+<statement> INSERT INTO student VALUES(129,'148080012','411 A','KUMAR SUDIP')</statement>
+<statement> INSERT INTO student VALUES(130,'','412 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(131,'','412 A','VACCANT')</statement>
+<statement> INSERT INTO student VALUES(132,'148080011','413 A','GIRISH INGLE')</statement>
+<statement> INSERT INTO student VALUES(133,'','413 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(134,'146390007','414 A','NIKHIL K.S.')</statement>
+<statement> INSERT INTO student VALUES(135,'146390005','414 A','AJITHLAL C.Y.')</statement>
+<statement> INSERT INTO student VALUES(136,'146390004','415 A','RISHI SOMAN')</statement>
+<statement> INSERT INTO student VALUES(137,'146390006','415 A','BAVALIA ARJUNKUMAR JITENDRAKUMAR')</statement>
+<statement> INSERT INTO student VALUES(138,'','416 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(139,'14T070001','416 A','JOEL JOSE')</statement>
+<statement> INSERT INTO student VALUES(140,'14630009','417 A','SAGAR YENDE')</statement>
+<statement> INSERT INTO student VALUES(141,'146330007','417 A','KORE AKSHAY KALYANI')</statement>
+<statement> INSERT INTO student VALUES(142,'146390008','501 A','PANKAJ KURIL')</statement>
+<statement> INSERT INTO student VALUES(143,'146130003','501 A','DATTARAM CHARI')</statement>
+<statement> INSERT INTO student VALUES(144,'146340002','502 A','SAURABH VASHISTHA')</statement>
+<statement> INSERT INTO student VALUES(145,'46330012','502 A','ROY INDRAJEET BHOLA NATH ROY')</statement>
+<statement> INSERT INTO student VALUES(146,'146130012','503 A','SHASHANK GAUTAM')</statement>
+<statement> INSERT INTO student VALUES(147,'146250014','503 A','PURTY RAVI')</statement>
+<statement> INSERT INTO student VALUES(148,'146390001','504 A','JINESH P. BHASKARAN')</statement>
+<statement> INSERT INTO student VALUES(149,'146130005','504 A','PATRIC JOHN')</statement>
+<statement> INSERT INTO student VALUES(150,'146390002','505 A','BHANGARE AMOL')</statement>
+<statement> INSERT INTO student VALUES(151,'146130004','505 A','BHAVIK GROVER')</statement>
+<statement> INSERT INTO student VALUES(152,'146390010','506 A','ROHIT KARTHA')</statement>
+<statement> INSERT INTO student VALUES(153,'146130014','506 A','G.SRIDHAR')</statement>
+<statement> INSERT INTO student VALUES(154,'146340007','507 A','SINGH TARUN')</statement>
+<statement> INSERT INTO student VALUES(155,'146130010','507 A','HIROM ULEMBA MEETEI')</statement>
+<statement> INSERT INTO student VALUES(156,'146340008','508 A','RATAN SINGH')</statement>
+<statement> INSERT INTO student VALUES(157,'146340011','508 A','SUMIT KUMAR')</statement>
+<statement> INSERT INTO student VALUES(158,'146130002','509 A','VAIDYA GAURAV VINODRAO')</statement>
+<statement> INSERT INTO student VALUES(159,'146130001','509 A','PAI SANKET SATISH')</statement>
+<statement> INSERT INTO student VALUES(160,'146130008','510 A','VISHAL BHUSHAN JHA')</statement>
+<statement> INSERT INTO student VALUES(161,'146250003','510 A','NITIN SEKAR')</statement>
+<statement> INSERT INTO student VALUES(162,'146340006','511 A','MD. UMEAR')</statement>
+<statement> INSERT INTO student VALUES(163,'146250011','511 A','TAPAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(164,'','512 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(165,'146340004','512 A','ANAGH SAHA')</statement>
+<statement> INSERT INTO student VALUES(166,'146250005','513 A','VOHRA KARAN ANILKUMAR')</statement>
+<statement> INSERT INTO student VALUES(167,'146250007','513 A','NARVANKAR AMEYA MADHAV')</statement>
+<statement> INSERT INTO student VALUES(168,'146390003','514 A','BARVE SHREYAS GANESH')</statement>
+<statement> INSERT INTO student VALUES(169,'146330010','514 A','GHONE PRASAD SHARAD')</statement>
+<statement> INSERT INTO student VALUES(170,'146330006','515 A','M. DILEEP M.P.MOHANAN')</statement>
+<statement> INSERT INTO student VALUES(171,'146330003','515 A','DANI K RAJU')</statement>
+<statement> INSERT INTO student VALUES(172,'','516 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(173,'','516 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(174,'146330011','517 A','NAVEEN SINGH RAWAT')</statement>
+<statement> INSERT INTO student VALUES(175,'146330002','517 A','ROHAN VERMA')</statement>
+<statement> INSERT INTO student VALUES(176,'146340010','518 A','RONEY DEVASSIA')</statement>
+<statement> INSERT INTO student VALUES(177,'146250012','518 A','NILMANI KUMAR')</statement>
+<statement> INSERT INTO student VALUES(178,'149278132','601 A','KARAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(179,'149278123','601 A','G.R.SRINIVAS')</statement>
+<statement> INSERT INTO student VALUES(180,'149278042','602 A','VIBHAV MAHALE')</statement>
+<statement> INSERT INTO student VALUES(181,'149278118','602 A','PHAWADE PRAKASH ASHOK')</statement>
+<statement> INSERT INTO student VALUES(182,'149278061','603 A','RAUSHAN KR. PARTHSARTHY')</statement>
+<statement> INSERT INTO student VALUES(183,'149278119','603 A','SUMEET KUMAR SETH')</statement>
+<statement> INSERT INTO student VALUES(184,'149278070','604 A','ROHIT KUMAR')</statement>
+<statement> INSERT INTO student VALUES(185,'149278112','604 A','ROHIT RAJ')</statement>
+<statement> INSERT INTO student VALUES(186,'149278115','605 A','SNEHAL MAHAJAN')</statement>
+<statement> INSERT INTO student VALUES(187,'149278125','605 A','CHANDAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(188,'149278114','606 A','JETHIN P. JOSHY')</statement>
+<statement> INSERT INTO student VALUES(189,'149278100','606 A','VISHNU M. PATTATH')</statement>
+<statement> INSERT INTO student VALUES(190,'','607 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(191,'','607 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(192,'149278018','608 A','IMON KALYAN SAHA')</statement>
+<statement> INSERT INTO student VALUES(193,'149278116','608 A','KUMAR UJJWAL')</statement>
+<statement> INSERT INTO student VALUES(194,'149278126','609 A','VIDIT BANSAL')</statement>
+<statement> INSERT INTO student VALUES(195,'149278122','609 A','JOSHI NAVEEN CHINTAMANI')</statement>
+<statement> INSERT INTO student VALUES(196,'146330010','610 A','PRASAD GHONE')</statement>
+<statement> INSERT INTO student VALUES(197,'','610 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(198,'','611 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(199,'','611 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(200,'','612 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(201,'','612 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(202,'149278085','613 A','HARISH K.')</statement>
+<statement> INSERT INTO student VALUES(203,'','613 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(204,'149278129','614 A','MUKHERJEE SAMUDRA PRADIP')</statement>
+<statement> INSERT INTO student VALUES(205,'','614 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(206,'149278117','615 A','NUKALA BHARGAV')</statement>
+<statement> INSERT INTO student VALUES(207,'','615 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(208,'149278024','616 A','SACHIN SALIAN')</statement>
+<statement> INSERT INTO student VALUES(209,'','616 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(210,'149278113','617 A','K.J.L. PRIYATTAM')</statement>
+<statement> INSERT INTO student VALUES(211,'','617 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(212,'149278131','618 A','MALAKAR NABJYOTI')</statement>
+<statement> INSERT INTO student VALUES(213,'','618 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(214,'','701 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(215,'149278071','701 A','GOTTIPATI BHASKAR')</statement>
+<statement> INSERT INTO student VALUES(216,'149278109','702 A','MALLADI KRISHNA CHAITANYA')</statement>
+<statement> INSERT INTO student VALUES(217,'149278029','702 A','UTSAV BASAK')</statement>
+<statement> INSERT INTO student VALUES(218,'149278110','703 A','VINEET TRIPUDE')</statement>
+<statement> INSERT INTO student VALUES(219,'149278040','703 A','SAGAR SRIVASTAVA')</statement>
+<statement> INSERT INTO student VALUES(220,'149278065','704 A','ASHISH SHAW')</statement>
+<statement> INSERT INTO student VALUES(221,'149278086','704 A','SHREYASH TANDON')</statement>
+<statement> INSERT INTO student VALUES(222,'149278075','705 A','AAKASH')</statement>
+<statement> INSERT INTO student VALUES(223,'149278059','705 A','ANUP BALI')</statement>
+<statement> INSERT INTO student VALUES(224,'149278085','706 A','HARISH K.')</statement>
+<statement> INSERT INTO student VALUES(225,'149278062','706 A','RATHOD NITESH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(226,'149278063','707 A','GAVIN D�SOUZA')</statement>
+<statement> INSERT INTO student VALUES(227,'149278031','707 A','RAHUL PIUS')</statement>
+<statement> INSERT INTO student VALUES(228,'149278124','708 A','ONKAR S.JAMDADE')</statement>
+<statement> INSERT INTO student VALUES(229,'149278090','708 A','SANTHOSH N.')</statement>
+<statement> INSERT INTO student VALUES(230,'149278091','709 A','NARELLA VAMSI KRISHNA')</statement>
+<statement> INSERT INTO student VALUES(231,'149278107','709 A','GOHIL HIREN B.')</statement>
+<statement> INSERT INTO student VALUES(232,'149278088','710 A','SOMIL B.(VACCATED THE ROOM ON 01/11/2014)')</statement>
+<statement> INSERT INTO student VALUES(233,'149278133','710 A','DEEPAK KUMAR')</statement>
+<statement> INSERT INTO student VALUES(234,'149278041','711 A','ALBERT BASUMATARY')</statement>
+<statement> INSERT INTO student VALUES(235,'149278120','711 A','PRASHANT TATASKAR')</statement>
+<statement> INSERT INTO student VALUES(236,'149278121','712 A','SUJIT WANKHADE')</statement>
+<statement> INSERT INTO student VALUES(237,'149278046','712 A','SRIHARSHA MITTAPALLI')</statement>
+<statement> INSERT INTO student VALUES(238,'149278026','801 A','ATUL GOYAL')</statement>
+<statement> INSERT INTO student VALUES(239,'149278051','801 A','AMAN SONI')</statement>
+<statement> INSERT INTO student VALUES(240,'149278050','802 A','ARUNKUMAR R.')</statement>
+<statement> INSERT INTO student VALUES(241,'149278076','802 A','ASHOK SAMUDRALA')</statement>
+<statement> INSERT INTO student VALUES(242,'149278022','803 A','RAHUL RAUSHAN')</statement>
+<statement> INSERT INTO student VALUES(243,'','803 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(244,'149278028','804 A','MURUGAPRAKASH SANTHANAKRISHNAN')</statement>
+<statement> INSERT INTO student VALUES(245,'149278096','804 A','AMIT KUMAR MISHRA')</statement>
+<statement> INSERT INTO student VALUES(246,'149278033','805 A','G. RAHUL')</statement>
+<statement> INSERT INTO student VALUES(247,'149278102','805 A','INDRAJEET KUMAR')</statement>
+<statement> INSERT INTO student VALUES(248,'149278095','806 A','DEEPAK ARYA')</statement>
+<statement> INSERT INTO student VALUES(249,'149278034','806 A','KANNAN A.C.')</statement>
+<statement> INSERT INTO student VALUES(250,'149278039','807 A','V.T.A. PHANEENDRA')</statement>
+<statement> INSERT INTO student VALUES(251,'149278058','807 A','SHIVENDRA PRATAP YADAV')</statement>
+<statement> INSERT INTO student VALUES(252,'149278111','808 A','RAVI VERMA')</statement>
+<statement> INSERT INTO student VALUES(253,'149278130','808 A','SARKAR RATUL SAJAL')</statement>
+<statement> INSERT INTO student VALUES(254,'149278032','809 A','SAI SRAVAN KONDALA')</statement>
+<statement> INSERT INTO student VALUES(255,'149278104','809 A','VIVEK PATIL')</statement>
+<statement> INSERT INTO student VALUES(256,'','810 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(257,'149278038','810 A','V. SIVAKUMAR')</statement>
+<statement> INSERT INTO student VALUES(258,'149278180','811 A','ABHIMANYU VERMA')</statement>
+<statement> INSERT INTO student VALUES(259,'149278106','811 A','NIHAR DAVE')</statement>
+<statement> INSERT INTO student VALUES(260,'149278103','812 A','AVINASH YADAV')</statement>
+<statement> INSERT INTO student VALUES(261,'149278035','812 A','KARAN KHOKHAR')</statement>
+<statement> INSERT INTO student VALUES(262,'149278081','813 A','KISHORE KUMAR T.')</statement>
+<statement> INSERT INTO student VALUES(263,'149278105','813 A','PATATUNDA SHOUVIK TAPAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(264,'149278057','814 A','MANOJ KUMAR')</statement>
+<statement> INSERT INTO student VALUES(265,'149278083','814 A','PAVENDHAN B.')</statement>
+<statement> INSERT INTO student VALUES(266,'149278082','815 A','AJAY CHOUDHARY')</statement>
+<statement> INSERT INTO student VALUES(267,'149278068','815 A','ANKUR KUMAR')</statement>
+<statement> INSERT INTO student VALUES(268,'149278066','816 A','NITESH AGRAWAL')</statement>
+<statement> INSERT INTO student VALUES(269,'149278037','816 A','NIKETAN J. PATEL')</statement>
+<statement> INSERT INTO student VALUES(270,'149278094','817 A','KARTHIK R.')</statement>
+<statement> INSERT INTO student VALUES(271,'','817 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(272,'149278108','818 A','PRAMOD KUMAR JAIN')</statement>
+<statement> INSERT INTO student VALUES(273,'149278084','818 A','D. SANTOSH VENU GOPAL')</statement>
+<statement> INSERT INTO student VALUES(274,'135090012','901 A','ABHISHEK CHADHA')</statement>
+<statement> INSERT INTO student VALUES(275,'135280003','901 A','MAYANK JAIN')</statement>
+<statement> INSERT INTO student VALUES(276,'135300024','902 A','MUKHERJEE SOMSUBHRO GAUTAM')</statement>
+<statement> INSERT INTO student VALUES(277,'13I300002','902 A','AMLAN BARAI')</statement>
+<statement> INSERT INTO student VALUES(278,'135300002','903 A','GOKUL RAJAN')</statement>
+<statement> INSERT INTO student VALUES(279,'135300028','903 A','SARTHAK SHARMA')</statement>
+<statement> INSERT INTO student VALUES(280,'13530007','904 A','TARE PRASANNA SURESH')</statement>
+<statement> INSERT INTO student VALUES(281,'135300004','904 A','KEDARE JAYESH PRAMOD')</statement>
+<statement> INSERT INTO student VALUES(282,'135300015','905 A','FARHAN ALI')</statement>
+<statement> INSERT INTO student VALUES(283,'135300021','905 A','PUSHPENDU MONDAL')</statement>
+<statement> INSERT INTO student VALUES(284,'','906 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(285,'','906 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(286,'135090002','907 A','IYER VENKITESH SRIHARI')</statement>
+<statement> INSERT INTO student VALUES(287,'135090018','907 A','SANJAY BARMAN')</statement>
+<statement> INSERT INTO student VALUES(288,'135090029','908 A','DIBYENDU MONDAL')</statement>
+<statement> INSERT INTO student VALUES(289,'135090026','908 A','RUDRA NARAYAN PADHAN')</statement>
+<statement> INSERT INTO student VALUES(290,'135090015','909 A','HARSHDEEP SINGH')</statement>
+<statement> INSERT INTO student VALUES(291,'135300014','909 A','MOHAMMAD')</statement>
+<statement> INSERT INTO student VALUES(292,'135090008','910 A','SURESH PRASAD')</statement>
+<statement> INSERT INTO student VALUES(293,'135090024','910 A','RAJENDRA KUMAR')</statement>
+<statement> INSERT INTO student VALUES(294,'135090014','911 A','GAUTAM KUMAR')</statement>
+<statement> INSERT INTO student VALUES(295,'135090009','911 A','LALIT KUMAR')</statement>
+<statement> INSERT INTO student VALUES(296,'','912 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(297,'','912 A','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(298,'135090013','913 A','JAY KUMAR')</statement>
+<statement> INSERT INTO student VALUES(299,'135090020','913 A','PRADEEP KUMAR MISHRA')</statement>
+<statement> INSERT INTO student VALUES(300,'135090016','914 A','BAGARIA SHYAMLAL')</statement>
+<statement> INSERT INTO student VALUES(301,'135280007','914 A','PRADEEP YADAV')</statement>
+<statement> INSERT INTO student VALUES(302,'135090023','915 A','KUMAR ANKIT YADAV')</statement>
+<statement> INSERT INTO student VALUES(303,'135280011','915 A','KUMAR GAURAV RATTAN LAL')</statement>
+<statement> INSERT INTO student VALUES(304,'13530026','916 A','ATISH .K.')</statement>
+<statement> INSERT INTO student VALUES(305,'135300019','916 A','ROUT SAROJKUMAR MADHUSUDAN ROUT')</statement>
+<statement> INSERT INTO student VALUES(306,'135300018','917 A','SINGH ABHISHEK  RAJENDRA SINGH')</statement>
+<statement> INSERT INTO student VALUES(307,'135300025','917 A','KULDEEP KUMAR')</statement>
+<statement> INSERT INTO student VALUES(308,'135280006','918 A','DINESH CHAND MEENA')</statement>
+<statement> INSERT INTO student VALUES(309,'','918 A','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(310,'149278010','1001 A','PALANDE ATUL ULHAS')</statement>
+<statement> INSERT INTO student VALUES(311,'149278093','1001 A','JAIN VIKALP DHANPAL')</statement>
+<statement> INSERT INTO student VALUES(312,'149278009','1002 A','SUMEET BHANSALI PRAMOD')</statement>
+<statement> INSERT INTO student VALUES(313,'149278045','1002 A','KRISHNA PRASAD P.S.')</statement>
+<statement> INSERT INTO student VALUES(314,'149278073','1003 A','ARION ARACKAL')</statement>
+<statement> INSERT INTO student VALUES(315,'149278095','1003 A','SOMENATH MUKHERJEE')</statement>
+<statement> INSERT INTO student VALUES(316,'149278047','1004 A','ROHIT SAHNI')</statement>
+<statement> INSERT INTO student VALUES(317,'149278012','1004 A','ONKAR PRATAP SINGH')</statement>
+<statement> INSERT INTO student VALUES(318,'149278044','1005 A','CHINDUKURI KIRAN SUBBANNA')</statement>
+<statement> INSERT INTO student VALUES(319,'149278074','1005 A','REEJU GUHA')</statement>
+<statement> INSERT INTO student VALUES(320,'149278092','1006 A','A.��� VIKRANTH VARMA')</statement>
+<statement> INSERT INTO student VALUES(321,'149278011','1006 A','RISHI AGARWAL')</statement>
+<statement> INSERT INTO student VALUES(322,'149278043','1007 A','SATISHKUMAR E. ESWARAN')</statement>
+<statement> INSERT INTO student VALUES(323,'149278013','1007 A','P.G.KRISHNAKUMAR')</statement>
+<statement> INSERT INTO student VALUES(324,'149278014','1008 A','MD. SIBLI ')</statement>
+<statement> INSERT INTO student VALUES(325,'149278128','1008 A','B.VAMSI BHARGAVA')</statement>
+<statement> INSERT INTO student VALUES(326,'149278048','1009 A','SENTHILKUMAR T.')</statement>
+<statement> INSERT INTO student VALUES(327,'149278008','1009 A','UDIT KATARIA')</statement>
+<statement> INSERT INTO student VALUES(328,'149278052','1010 A','CHOPADE SANGAM PRADIP')</statement>
+<statement> INSERT INTO student VALUES(329,'149278080','1010 A','ASHISH KASHYAP')</statement>
+<statement> INSERT INTO student VALUES(330,'149278054','1011 A','NITISH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(331,'149278078','1011 A','PADMANABHAN K.')</statement>
+<statement> INSERT INTO student VALUES(332,'149278021','1012 A','PRAVBEEN SINGHAL')</statement>
+<statement> INSERT INTO student VALUES(333,'149278100','1012 A','VISHNU M PATTATH')</statement>
+<statement> INSERT INTO student VALUES(334,'149278019','1013 A','ANKIT MITTAL')</statement>
+<statement> INSERT INTO student VALUES(335,'149278127','1013 A','JAIESH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(336,'149278016','1014 A','MD. IMTEYAZUDDIN')</statement>
+<statement> INSERT INTO student VALUES(337,'149278055','1014 A','BALAJI V.S.')</statement>
+<statement> INSERT INTO student VALUES(338,'149278036','1015 A','MAHESHWARI ANISH SANJAY')</statement>
+<statement> INSERT INTO student VALUES(339,'149278067','1015 A','JAIN VIPUL SULEKH JAIN')</statement>
+<statement> INSERT INTO student VALUES(340,'149278053','1016 A','GAUTAM AHUJA')</statement>
+<statement> INSERT INTO student VALUES(341,'149278020','1016 A','KHANNA ANKUR ARUN')</statement>
+<statement> INSERT INTO student VALUES(342,'149278099','1017 A','NILAY KUMAR')</statement>
+<statement> INSERT INTO student VALUES(343,'149278017','1017 A','ARUN MOHANAN V.M.')</statement>
+<statement> INSERT INTO student VALUES(344,'149278049','1018 A','SAICHARAN A.')</statement>
+<statement> INSERT INTO student VALUES(345,'149278101','1018 A','KISHAN MANUPATI')</statement>
+<statement> INSERT INTO student VALUES(346,'140020074','101 B','BEDI GURMEET SINGH KRIPAL CHAND')</statement>
+<statement> INSERT INTO student VALUES(347,'140020112','101 B','GALI BABU VATAN')</statement>
+<statement> INSERT INTO student VALUES(348,'140020117','102 B','NASSER AKHIL NASSER M.KUNJU')</statement>
+<statement> INSERT INTO student VALUES(349,'140020120','102 B','GUPTA NIPUN PRADEEP GUPTA')</statement>
+<statement> INSERT INTO student VALUES(350,'140020064','103 B','SINGH RANVIJAY OM KANWAR')</statement>
+<statement> INSERT INTO student VALUES(351,'14002072','103 B','SINGHAL APOORV AJAYKUMAR SINGHAL')</statement>
+<statement> INSERT INTO student VALUES(352,'140050017','104 B','GARG SRAJAN SANDIP')</statement>
+<statement> INSERT INTO student VALUES(353,'140050033','104 B','VADITE RAKESHNAIK V.SAMYA NAIK')</statement>
+<statement> INSERT INTO student VALUES(354,'140050052','105 B','KUMAR ABHIJEET')</statement>
+<statement> INSERT INTO student VALUES(355,'140050024','105 B','MITTAL ANUJ')</statement>
+<statement> INSERT INTO student VALUES(356,'140050018','106 B','RAJESH SHREY RAJESH GUPTA')</statement>
+<statement> INSERT INTO student VALUES(357,'140050036','106 B','ANGAJLA HEMANTH KUMAR RAJASEKHAR')</statement>
+<statement> INSERT INTO student VALUES(358,'','107 B','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(359,'','107 B','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(360,'140020125','108 B','KUMAR ROHAN RAJESH')</statement>
+<statement> INSERT INTO student VALUES(361,'140020108','109 B','DETHE SHRIKANT CHANDRAMANI')</statement>
+<statement> INSERT INTO student VALUES(362,'140020095','109 B','OJASWA GARG')</statement>
+<statement> INSERT INTO student VALUES(363,'14005085','110 B','GOWTHAM BASKAR')</statement>
+<statement> INSERT INTO student VALUES(364,'140050019','110 B','AGARWAL RISHABH')</statement>
+<statement> INSERT INTO student VALUES(365,'14050065','111 B','ARUKONDA GOUTHAM SURYA')</statement>
+<statement> INSERT INTO student VALUES(366,'14050036','111 B','GOEL SHUBHAM ASHWINI')</statement>
+<statement> INSERT INTO student VALUES(367,'140050029','112 B','BUDI AVINASH SRINIVAS RAO')</statement>
+<statement> INSERT INTO student VALUES(368,'140050026','112 B','GUPTA AMEY ANAND BIHARI GUPTA')</statement>
+<statement> INSERT INTO student VALUES(369,'140020115','113 B','MISKIN NIKHIL PURSHOTTAM')</statement>
+<statement> INSERT INTO student VALUES(370,'140020122','113 B','RATANJOT SINGH KULDEEP SINGH')</statement>
+<statement> INSERT INTO student VALUES(371,'140020109','114 B','BUDATIL RAVI LAKSHAY SHRAVAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(372,'140020084','114 B','SAGAR VARSHNEY NARENDRA')</statement>
+<statement> INSERT INTO student VALUES(373,'140020118','115 B','ARNESH SUKUMAR')</statement>
+<statement> INSERT INTO student VALUES(374,'140020092','115 B','SATYENDRA SINGH RAJPOOT')</statement>
+<statement> INSERT INTO student VALUES(375,'140050021','116 B','KATHURZA YATHANSH AJAY')</statement>
+<statement> INSERT INTO student VALUES(376,'140050013','116 B','KUMAR NAVEEN RAJKISHORE PRASAD')</statement>
+<statement> INSERT INTO student VALUES(377,'140050027','117 B','CHATURVEDI RAJAT VINAY')</statement>
+<statement> INSERT INTO student VALUES(378,'140050032','117 B','SWAROOP SUMAN MADAN MOHAN')</statement>
+<statement> INSERT INTO student VALUES(379,'140050056','118 B','DANTAM MOHANSAITEJA SUBBARAO')</statement>
+<statement> INSERT INTO student VALUES(380,'140050031','118 B','C. VISHWESH')</statement>
+<statement> INSERT INTO student VALUES(381,'140020116','201 B','NAGARAJ KAUSHIK SHANKAR')</statement>
+<statement> INSERT INTO student VALUES(382,'140020073','201 B','LOHAN APRAJIT SURESH')</statement>
+<statement> INSERT INTO student VALUES(383,'140020102','202 B','SAHI ADITYA MANIK RAMNARAYAN SAHI')</statement>
+<statement> INSERT INTO student VALUES(384,'140020010','202 B','AVINASH IYER')</statement>
+<statement> INSERT INTO student VALUES(385,'140020051','203 B','VIJAY AMAN MANOJ')</statement>
+<statement> INSERT INTO student VALUES(386,'140020101','203 B','CHOUDHARY RAHUL PRITHWI RAJ CHOUDHARY')</statement>
+<statement> INSERT INTO student VALUES(387,'140050067','204 B','GEDAM SURAJ')</statement>
+<statement> INSERT INTO student VALUES(388,'140050006','204 B','VAIDYA KAPIL EKNATH')</statement>
+<statement> INSERT INTO student VALUES(389,'140050022','205 B','BABEL KUSHAL SATYAVEER')</statement>
+<statement> INSERT INTO student VALUES(390,'140050071','205 B','DARNASI RAHUL KIRAN SRINIVASA RAO')</statement>
+<statement> INSERT INTO student VALUES(391,'140050020','206 B','LAHOTI GOVIND KANHAIYALAL')</statement>
+<statement> INSERT INTO student VALUES(392,'140050050','206 B','UPPARA RAGHUVEER U.NARASINGAPPA')</statement>
+<statement> INSERT INTO student VALUES(393,'140020100','207 B','SARDAR NITESH JANMEJOY')</statement>
+<statement> INSERT INTO student VALUES(394,'140020002','207 B','DIVYAM JAIN')</statement>
+<statement> INSERT INTO student VALUES(395,'140020086','208 B','PINTU RAJ SARJUN SAW')</statement>
+<statement> INSERT INTO student VALUES(396,'140020065','208 B','KOTHARI TAPISH SUNIL')</statement>
+<statement> INSERT INTO student VALUES(397,'140020054','209 B','LADIWALA PRANAY PRADEEP')</statement>
+<statement> INSERT INTO student VALUES(398,'140020107','209 B','SARDAR KUMAR SAPNDAN PRASANTAKUMAR SARDAR')</statement>
+<statement> INSERT INTO student VALUES(399,'140050023','210 B','MURDIA CHTRAANG MANISH')</statement>
+<statement> INSERT INTO student VALUES(400,'140050083','210 B','MUGILVARNAN MANIVANNAN')</statement>
+<statement> INSERT INTO student VALUES(401,'140050078','211 B','KARNATI VENKATA NAGA SREENIVASULU')</statement>
+<statement> INSERT INTO student VALUES(402,'140050015','211 B','VYAS MOHIT RAMESH')</statement>
+<statement> INSERT INTO student VALUES(403,'140050080','212 B','AZMEERA SRINATH NAIK')</statement>
+<statement> INSERT INTO student VALUES(404,'140050005','212 B','GANVIR RUPANSHU SURAJLAL')</statement>
+<statement> INSERT INTO student VALUES(405,'140020057','213 B','JOSHI PARTH RAJESH')</statement>
+<statement> INSERT INTO student VALUES(406,'140020087','213 B','ARYAN AMRITESH NARENDRA KUMAR')</statement>
+<statement> INSERT INTO student VALUES(407,'140020060','214 B','KUMAR SHASHI KANT')</statement>
+<statement> INSERT INTO student VALUES(408,'140020082','214 B','LAKSH AGARWAL')</statement>
+<statement> INSERT INTO student VALUES(409,'140020004','215 B','THAKKAR CHETAN MANOJBHAI')</statement>
+<statement> INSERT INTO student VALUES(410,'140020085','215 B','KUMAR RISHU RAJESH')</statement>
+<statement> INSERT INTO student VALUES(411,'140050002','216 B','MODH DEEP NIRANJANKUMAR MODH')</statement>
+<statement> INSERT INTO student VALUES(412,'140050048','216 B','KUSUIPATI UDAY')</statement>
+<statement> INSERT INTO student VALUES(413,'140050046','217 B','RAPOLU VISHWANADH SUDHAKAR')</statement>
+<statement> INSERT INTO student VALUES(414,'140050025','217 B','BARODIYA SHREYANSH')</statement>
+<statement> INSERT INTO student VALUES(415,'140050035','218 B','V.YASHWANTH REDDY V.VENKAT REDDY')</statement>
+<statement> INSERT INTO student VALUES(416,'140050007','218 B','KANJILAL NEELADRISHEKHAR LITTLEKUMAR')</statement>
+<statement> INSERT INTO student VALUES(417,'14002003','301 B','GOUTJAM RAMAKRISHNAN')</statement>
+<statement> INSERT INTO student VALUES(418,'140020099','301 B','MAYANK SHALIN RAJENDRA PRASAD')</statement>
+<statement> INSERT INTO student VALUES(419,'140020089','302 B','SATYENDRA KUMAR')</statement>
+<statement> INSERT INTO student VALUES(420,'140020024','302 B','JAIN PRANSHU MAHENDRA')</statement>
+<statement> INSERT INTO student VALUES(421,'140020067','303 B','JAIPRAKASH MEENA')</statement>
+<statement> INSERT INTO student VALUES(422,'140020103','303 B','ABHISHEK ADITYA KASHYAP ASHOK KUMAR')</statement>
+<statement> INSERT INTO student VALUES(423,'140050014','304 B','KUMAR SHREY H.L.MEENA')</statement>
+<statement> INSERT INTO student VALUES(424,'140050076','304 B','VAKACHARLA PRAMOD')</statement>
+<statement> INSERT INTO student VALUES(425,'140050004','305 B','KUMAR YOGESH')</statement>
+<statement> INSERT INTO student VALUES(426,'140050007','305 B','KILARU MANOJ SRINIVAS')</statement>
+<statement> INSERT INTO student VALUES(427,'140050009','306 B','GAUTAM UTKARSH SHIWMANGAL')</statement>
+<statement> INSERT INTO student VALUES(428,'140050038','306 B','GUDIPATI KRISHNA CHAITANYA')</statement>
+<statement> INSERT INTO student VALUES(429,'140020105','307 B','ANUP PATNAIK A.B.PATNAIK')</statement>
+<statement> INSERT INTO student VALUES(430,'140020029','307 B','DEVHARE DINESH ULHAS')</statement>
+<statement> INSERT INTO student VALUES(431,'140020056','308 B','SAINI VISHAL R.P.SAINI')</statement>
+<statement> INSERT INTO student VALUES(432,'140020104','308 B','JAIN GAURAV')</statement>
+<statement> INSERT INTO student VALUES(433,'140020030','309 B','SONAWANE VIVEK VISHWANATH')</statement>
+<statement> INSERT INTO student VALUES(434,'140020106','309 B','NAAY BALODIA')</statement>
+<statement> INSERT INTO student VALUES(435,'140050016','310 B','POONIYA ANKUR')</statement>
+<statement> INSERT INTO student VALUES(436,'140050055','310 B','NAVULURI SAI SURYA TEJA')</statement>
+<statement> INSERT INTO student VALUES(437,'140050010','311 B','MEENA VISHAL')</statement>
+<statement> INSERT INTO student VALUES(438,'140050043','311 B','GUJJULA CHANUKYA VARDHAN')</statement>
+<statement> INSERT INTO student VALUES(439,'140050060','312 B','GANGAM ROHITH REDDY')</statement>
+<statement> INSERT INTO student VALUES(440,'140050003','312 B','MAHAJAN HARSHAL RAJESH')</statement>
+<statement> INSERT INTO student VALUES(441,'140020050','313 B','SINGH CHANDRADEEP VIRENDRA SINGH')</statement>
+<statement> INSERT INTO student VALUES(442,'140020015','313 B','SARDA ABHISHEK RAJESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(443,'140020033','314 B','CHIWANDE TANUL RAJHANS')</statement>
+<statement> INSERT INTO student VALUES(444,'140020066','314 B','PREPAK GARG')</statement>
+<statement> INSERT INTO student VALUES(445,'140020080','315 B','SIHAG MANISH KRISHAN KUMAR SIHAG')</statement>
+<statement> INSERT INTO student VALUES(446,'140020075','315 B','NAHAR PRANY RAJENDRA')</statement>
+<statement> INSERT INTO student VALUES(447,'140050034','316 B','BHOOKYA NAVEEN')</statement>
+<statement> INSERT INTO student VALUES(448,'140050008','316 B','RAUT TEJESH TUKARAM')</statement>
+<statement> INSERT INTO student VALUES(449,'140050040','317 B','KANAPARTHI VEERA VENKATA SATISH V. RAMANA')</statement>
+<statement> INSERT INTO student VALUES(450,'140050011','317 B','HIMANSHU PAYAL')</statement>
+<statement> INSERT INTO student VALUES(451,'140050059','318 B','MOTHINWNI SAI TEJA')</statement>
+<statement> INSERT INTO student VALUES(452,'140050058','318 B','GUDMALWAR GANESH LAXMANRAO')</statement>
+<statement> INSERT INTO student VALUES(453,'140020025','401 B','AMIYA MAITREYA')</statement>
+<statement> INSERT INTO student VALUES(454,'140020013','401 B','SANKHE CHINMAY SANJAY')</statement>
+<statement> INSERT INTO student VALUES(455,'140020003','402 B','GUPTA AGRIM RAJESH')</statement>
+<statement> INSERT INTO student VALUES(456,'140020014','402 B','KAJROLKAR OMKAR RAVINDRA')</statement>
+<statement> INSERT INTO student VALUES(457,'140020075','403 B','AKASH BHANERIA JAYRAM BHANERIA')</statement>
+<statement> INSERT INTO student VALUES(458,'140020019','403 B','BANERJEE TANAY DEBASHISH')</statement>
+<statement> INSERT INTO student VALUES(459,'140050012','404 B','PRALIYA AAKASH PRABHULAL')</statement>
+<statement> INSERT INTO student VALUES(460,'140050057','404 B','YOGENDRA VINAY')</statement>
+<statement> INSERT INTO student VALUES(461,'140050075','405 B','SURENDER SINGH LAMBA')</statement>
+<statement> INSERT INTO student VALUES(462,'140050061','405 B','RISHABH V. CHAVHAN')</statement>
+<statement> INSERT INTO student VALUES(463,'140050044','406 B','NARU DIVAKAR REDDY')</statement>
+<statement> INSERT INTO student VALUES(464,'140050001','406 B','SAYANA MRIDUL RAMCHANDRA')</statement>
+<statement> INSERT INTO student VALUES(465,'140020078','407 B','KABRA VENKATESH')</statement>
+<statement> INSERT INTO student VALUES(466,'140020124','407 B','PUSHPENDRA KUMAR')</statement>
+<statement> INSERT INTO student VALUES(467,'140020062','408 B','AGNIHOTRI SATYAM R.K.AGNIHOTGRI')</statement>
+<statement> INSERT INTO student VALUES(468,'140020068','408 B','MEENA SUPREET BHAJAN LAL MEENA')</statement>
+<statement> INSERT INTO student VALUES(469,'140020048','409 B','GARG SHIVAM SHYAM SUNDER GARG')</statement>
+<statement> INSERT INTO student VALUES(470,'140020028','409 B','GAUTAM ANKIT KUMAR G.C.GAUTAM')</statement>
+<statement> INSERT INTO student VALUES(471,'140050054','410 B','RONDI ABHINAV NARSAIAH')</statement>
+<statement> INSERT INTO student VALUES(472,'140050074','410 B','KOPPISETTI NIKHILESWAR NOOKA RAJU')</statement>
+<statement> INSERT INTO student VALUES(473,'140050082','411 B','AILAVARAPPU RAVI TEJA VENKATA')</statement>
+<statement> INSERT INTO student VALUES(474,'140050053','411 B','BODDEDA JAGADEESH')</statement>
+<statement> INSERT INTO student VALUES(475,'140050049','412 B','BHAVANI VISHAL BABU VENKATESHAM')</statement>
+<statement> INSERT INTO student VALUES(476,'140050033','412 B','LAKIMARAPU NIKHIL KUMAR')</statement>
+<statement> INSERT INTO student VALUES(477,'140020006','413 B','PATEL FENIL PRAMODBHAI')</statement>
+<statement> INSERT INTO student VALUES(478,'140020027','413 B','AGARWAL SAUMIL SANJEEV')</statement>
+<statement> INSERT INTO student VALUES(479,'140020081','414 B','DAHIYA RAMPAL PURKHARAM')</statement>
+<statement> INSERT INTO student VALUES(480,'140020022','414 B','ARUNABH MISHRA')</statement>
+<statement> INSERT INTO student VALUES(481,'140020007','415 B','SUMERA NIKHIL MOTIBHAI')</statement>
+<statement> INSERT INTO student VALUES(482,'140020005','415 B','SAXENA ARUNABH RAJNEESH')</statement>
+<statement> INSERT INTO student VALUES(483,'140050081','416 B','SUMITH')</statement>
+<statement> INSERT INTO student VALUES(484,'140050047','416 B','Y. PUSHYARAG')</statement>
+<statement> INSERT INTO student VALUES(485,'140050070','417 B','SHAIK ABDUL BASITH SHAIK JOHN SAIDA')</statement>
+<statement> INSERT INTO student VALUES(486,'140050062','417 B','POOSA NIHAL P. VASANTH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(487,'140050039','418 B','CHENNAREDDY JAGANTHSHANKAR')</statement>
+<statement> INSERT INTO student VALUES(488,'140050077','418 B','PILLI THANUJ RAJU P.BHASKARA RAO')</statement>
+<statement> INSERT INTO student VALUES(489,'140020032','501 B','GOWARDHAN ASHUTOSH VJAYKUMAR')</statement>
+<statement> INSERT INTO student VALUES(490,'140020077','501 B','HARSH GUPTA')</statement>
+<statement> INSERT INTO student VALUES(491,'140020037','502 B','SWAMI VIKRANT KEDARLING')</statement>
+<statement> INSERT INTO student VALUES(492,'140020001','502 B','PATEL SHANTANU KIRANBHAI')</statement>
+<statement> INSERT INTO student VALUES(493,'140020034','503 B','BAMBODKAR SANKET KAILAS')</statement>
+<statement> INSERT INTO student VALUES(494,'140020046','503 B','MUNDRA SHRIKANT')</statement>
+<statement> INSERT INTO student VALUES(495,'140050084','504 B','MURHEKAR ANIKET MANOJ')</statement>
+<statement> INSERT INTO student VALUES(496,'140050068','504 B','THANNEERU RANA PRATHAP SRIHARI')</statement>
+<statement> INSERT INTO student VALUES(497,'140050030','505 B','KONKYANA SAHIL')</statement>
+<statement> INSERT INTO student VALUES(498,'140050041','505 B','RAVURU LOHITH SURESH')</statement>
+<statement> INSERT INTO student VALUES(499,'140050079','506 B','VUPPULA MANI TEJA REDDY')</statement>
+<statement> INSERT INTO student VALUES(500,'140050073','506 B','BANALA CHAITANYA RAJESH AJAYA KUMAR')</statement>
+<statement> INSERT INTO student VALUES(501,'140050063','507 B','THALLAPALLY SAHITH RAJAIAH')</statement>
+<statement> INSERT INTO student VALUES(502,'140050066','507 B','CHINTHAKINDI SAI CHETAN')</statement>
+<statement> INSERT INTO student VALUES(503,'140050045','508 B','NANDIGAM PAVAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(504,'140050064','508 B','BHUKYA SRINIVAS NAIK')</statement>
+<statement> INSERT INTO student VALUES(505,'140050042','509 B','MALLELA SAI ARAVIND')</statement>
+<statement> INSERT INTO student VALUES(506,'140050028','509 B','VARRE ADITYA VARDHAN')</statement>
+<statement> INSERT INTO student VALUES(507,'140020121','510 B','WALIA GURJOT SINGH')</statement>
+<statement> INSERT INTO student VALUES(508,'140020096','510 B','SACHAN AMIT RAKESH')</statement>
+<statement> INSERT INTO student VALUES(509,'140020071','511 B','LALIT PRAKASH CHAUHAN')</statement>
+<statement> INSERT INTO student VALUES(510,'140020017','511 B','AGARWAL RAHUL RAJKUMAR')</statement>
+<statement> INSERT INTO student VALUES(511,'140020031','512 B','GOHTE ASHWIN RAMKRISHNA')</statement>
+<statement> INSERT INTO student VALUES(512,'140020012','512 B','DAS RUDRAJIT INDRAJIT')</statement>
+<statement> INSERT INTO student VALUES(513,'140020059','513 B','YADAV RAJAT')</statement>
+<statement> INSERT INTO student VALUES(514,'140020020','513 B','VIDVANS NIRAJ ASHUTOSH')</statement>
+<statement> INSERT INTO student VALUES(515,'140020038','514 B','DHAMALE ASHUTOSH MADHUKAR')</statement>
+<statement> INSERT INTO student VALUES(516,'140020035','514 B','POTTULWAR MAHESH SOPANRAO')</statement>
+<statement> INSERT INTO student VALUES(517,'140020043','515 B','GORE SHRIKANT NAGNATH')</statement>
+<statement> INSERT INTO student VALUES(518,'140020063','515 B','NAVEEN')</statement>
+<statement> INSERT INTO student VALUES(519,'14D260004','516 B','BRAR YASHPAL SINGH')</statement>
+<statement> INSERT INTO student VALUES(520,'14D260003','516 B','CHIRAME SANKET SANJIVAN')</statement>
+<statement> INSERT INTO student VALUES(521,'140100066','517 B','KUMAR DINESH MUKESH')</statement>
+<statement> INSERT INTO student VALUES(522,'140100083','517 B','CH. P. VENKATA SAI KIRAN')</statement>
+<statement> INSERT INTO student VALUES(523,'140100096','518 B','PALREDDY SREERAMKUMAR REDDY P.VENKAT REDDY')</statement>
+<statement> INSERT INTO student VALUES(524,'140100074','518 B','KUMAR VARUN PRASHANT GOPAL PRASAD')</statement>
+<statement> INSERT INTO student VALUES(525,'140260015','601 B','KUMAR PRATIK UMESH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(526,'140260008','601 B','NIRBHAY PATIL')</statement>
+<statement> INSERT INTO student VALUES(527,'140260018','602 B','JAIN RAKSHIT NARENDRA KUMAR')</statement>
+<statement> INSERT INTO student VALUES(528,'140260024','602 B','JAY PRAKASH')</statement>
+<statement> INSERT INTO student VALUES(529,'140260021','603 B','ABHINAV KUMAR')</statement>
+<statement> INSERT INTO student VALUES(530,'140260019','603 B','YASH MANDOWARA')</statement>
+<statement> INSERT INTO student VALUES(531,'140100059','604 B','BANSAL SHUBHAM SUBHASH BANSAL')</statement>
+<statement> INSERT INTO student VALUES(532,'140100107','604 B','V. MOHITH SAI NAG')</statement>
+<statement> INSERT INTO student VALUES(533,'14010016','605 B','BAJAJ KSHITIJ SANJAY')</statement>
+<statement> INSERT INTO student VALUES(534,'140100109','605 B','CHIRAG M. RAMESH')</statement>
+<statement> INSERT INTO student VALUES(535,'140100100','606 B','MADDIMADUGU RONI RAJ SHEKAR')</statement>
+<statement> INSERT INTO student VALUES(536,'140100114','606 B','AGARWAL NILAKH KR. MANOJ KUMAR AGARWAL')</statement>
+<statement> INSERT INTO student VALUES(537,'140260016','607 B','KUMAR AYUSH')</statement>
+<statement> INSERT INTO student VALUES(538,'140260025','607 B','STHITAPRAGYAN MOHANTY GYANENDRA MOHANTY')</statement>
+<statement> INSERT INTO student VALUES(539,'140260027','608 B','BATCHALA GOWTHAM KAMESHWARARAO')</statement>
+<statement> INSERT INTO student VALUES(540,'140260007','608 B','SHEETY ANUJ UDAY')</statement>
+<statement> INSERT INTO student VALUES(541,'140260030','609 B','BALAHARIHAR S.S. SAKTHIVEL K.')</statement>
+<statement> INSERT INTO student VALUES(542,'140260012','609 B','KALANTRE SANDESH SACHIN')</statement>
+<statement> INSERT INTO student VALUES(543,'140100104','610 B','BHOGARAJU KRISHNA SANDEEP GANGADHARA RAO')</statement>
+<statement> INSERT INTO student VALUES(544,'140100115','610 B','MAURYA NITIN ANOOP SINGH')</statement>
+<statement> INSERT INTO student VALUES(545,'140100081','611 B','SINGH CHETAN VINOD PRAKASH SINGH')</statement>
+<statement> INSERT INTO student VALUES(546,'140100091','611 B','KUNTUMALLA GOWTHAM VIJAYAKUMAR')</statement>
+<statement> INSERT INTO student VALUES(547,'140100073','612 B','SINGH MANIRAM')</statement>
+<statement> INSERT INTO student VALUES(548,'140100023','612 B','JAIN KARAN PRADEEP')</statement>
+<statement> INSERT INTO student VALUES(549,'140260026','613 B','SINGH ADITYA')</statement>
+<statement> INSERT INTO student VALUES(550,'140260006','613 B','JAIN SHEETAL')</statement>
+<statement> INSERT INTO student VALUES(551,'140260022','614 B','PRASAD CHAITANYA RAJESH')</statement>
+<statement> INSERT INTO student VALUES(552,'140260029','614 B','SAJ VISHNU SAJIEVE')</statement>
+<statement> INSERT INTO student VALUES(553,'140260001','615 B','KESHAV SRINIVASAN')</statement>
+<statement> INSERT INTO student VALUES(554,'140260009','615 B','GHODERAO PULKIT SUDESH')</statement>
+<statement> INSERT INTO student VALUES(555,'140100087','616 B','EKKA ABHISHEK EKKA')</statement>
+<statement> INSERT INTO student VALUES(556,'140100016','616 B','PATHARE MONISH KALIND')</statement>
+<statement> INSERT INTO student VALUES(557,'140100089','617 B','PATEL ANJAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(558,'14010008','617 B','VETE NIHAR PRATIN')</statement>
+<statement> INSERT INTO student VALUES(559,'140100060','618 B','DHOBLE YASH ASHISH')</statement>
+<statement> INSERT INTO student VALUES(560,'140100082','618 B','RAHUL GOPE BISWANATH GOPE')</statement>
+<statement> INSERT INTO student VALUES(561,'140020008','701 B','GANDHI SIDDHANT')</statement>
+<statement> INSERT INTO student VALUES(562,'140020093','701 B','MOHD. FARHAN AKHLAQ ANSARI')</statement>
+<statement> INSERT INTO student VALUES(563,'140020058','702 B','MEENA ANUP TILAKRAM')</statement>
+<statement> INSERT INTO student VALUES(564,'140020036','702 B','ASHWIN NATRAJ DRAVID')</statement>
+<statement> INSERT INTO student VALUES(565,'140020049','703 B','DEEPAK KUMAR MEENA')</statement>
+<statement> INSERT INTO student VALUES(566,'140020009','703 B','MENON ARVIND')</statement>
+<statement> INSERT INTO student VALUES(567,'140020016','704 B','RICHIE SAWANT')</statement>
+<statement> INSERT INTO student VALUES(568,'140100073','704 B','MANIRAM SINGH')</statement>
+<statement> INSERT INTO student VALUES(569,'140100110','705 B','BHIRANGI RAUNAQ MAHESH')</statement>
+<statement> INSERT INTO student VALUES(570,'140100045','705 B','SUTRAKAR VIKAS KASHIRAM')</statement>
+<statement> INSERT INTO student VALUES(571,'140100101','706 B','POLTURI VACHANDEEP BALENDRA')</statement>
+<statement> INSERT INTO student VALUES(572,'140100032','706 B','ARYA S.V.')</statement>
+<statement> INSERT INTO student VALUES(573,'140100036','707 B','NEERAJ NISHANT NEERAJ')</statement>
+<statement> INSERT INTO student VALUES(574,'140100084','707 B','PINNAKA PRUDHVI')</statement>
+<statement> INSERT INTO student VALUES(575,'140100035','708 B','VARMA SUSHIL MAHAVIR')</statement>
+<statement> INSERT INTO student VALUES(576,'140100026','708 B','KANSARA VATSAL SANJAY')</statement>
+<statement> INSERT INTO student VALUES(577,'140100047','709 B','JAIN RAVI YOGENDRAKUMAR')</statement>
+<statement> INSERT INTO student VALUES(578,'140100063','709 B','BHOR ROHIT RAJENDRA')</statement>
+<statement> INSERT INTO student VALUES(579,'140020026','710 B','SAMBHUS RUTURAJ SUDHIR')</statement>
+<statement> INSERT INTO student VALUES(580,'140020090','710 B','SONI ASHUTOSH')</statement>
+<statement> INSERT INTO student VALUES(581,'140020053','711 B','BAGADE KAUSTUBH ANIL')</statement>
+<statement> INSERT INTO student VALUES(582,'140020045','711 B','MOHIT SINGHAL')</statement>
+<statement> INSERT INTO student VALUES(583,'140020098','712 B','AMIT KUMAR BHAGAT')</statement>
+<statement> INSERT INTO student VALUES(584,'140020018','712 B','ANSARI AASIM MASOOD')</statement>
+<statement> INSERT INTO student VALUES(585,'140260017','801 B','ALI ZULFIQAR')</statement>
+<statement> INSERT INTO student VALUES(586,'140260011','801 B','BHATTACHARYYA REEBHU JAMIN')</statement>
+<statement> INSERT INTO student VALUES(587,'140260020','802 B','KUMAR CHAHAR VINAY VIRENDRA')</statement>
+<statement> INSERT INTO student VALUES(588,'140260005','802 B','KHONA MIKAI CHITARANJAN')</statement>
+<statement> INSERT INTO student VALUES(589,'140260014','803 B','SHROTRIYA HARSHANK GAJENDRA')</statement>
+<statement> INSERT INTO student VALUES(590,'140260003','803 B','CHAVAN SAURABH SUSHILKUMAR')</statement>
+<statement> INSERT INTO student VALUES(591,'140100028','804 B','KAORE SHREERANG DEEPAK')</statement>
+<statement> INSERT INTO student VALUES(592,'140100072','804 B','KUMAR SHUBHAM KAMTA PRASAD')</statement>
+<statement> INSERT INTO student VALUES(593,'140100086','805 B','GULAM SARWAR MD. HALIM UDDIN')</statement>
+<statement> INSERT INTO student VALUES(594,'140100037','805 B','MANTRI KARAN SANJAY')</statement>
+<statement> INSERT INTO student VALUES(595,'140100071','806 B','BANKA ABHINAV')</statement>
+<statement> INSERT INTO student VALUES(596,'140100061','806 B','DIXIT AMOGH DANANJAY')</statement>
+<statement> INSERT INTO student VALUES(597,'140260010','807 B','BHATNAGAR ARCHI BHANU PRAKASH')</statement>
+<statement> INSERT INTO student VALUES(598,'140278026','807 B','ATUL GOYAL')</statement>
+<statement> INSERT INTO student VALUES(599,'14D260008','808 B','AMAL VATS')</statement>
+<statement> INSERT INTO student VALUES(600,'14D260011','808 B','L.SHANMUKHA SURYA TEJA')</statement>
+<statement> INSERT INTO student VALUES(601,'14D260005','809 B','KUMAR RAHUL MUKESH')</statement>
+<statement> INSERT INTO student VALUES(602,'14D260007','809 B','SHIVAM GARG')</statement>
+<statement> INSERT INTO student VALUES(603,'140100080','810 B','AYUSH ANAND')</statement>
+<statement> INSERT INTO student VALUES(604,'140100041','810 B','PANDA KANISHKA')</statement>
+<statement> INSERT INTO student VALUES(605,'140100024','811 B','CHAUDHARY ABHISHEK SUDHIR')</statement>
+<statement> INSERT INTO student VALUES(606,'140100090','811 B','AGARWAL NAVNEET GIRDHAR LAL AGARWAL')</statement>
+<statement> INSERT INTO student VALUES(607,'140100093','812 B','SAI SUDHIR CHALAVADI')</statement>
+<statement> INSERT INTO student VALUES(608,'140100033','812 B','KORANNE VISHVESH SUNIL')</statement>
+<statement> INSERT INTO student VALUES(609,'14D260001','813 B','FATARPEKAR NITISH NAMDEV')</statement>
+<statement> INSERT INTO student VALUES(610,'14D260002','813 B','KARTHIK KANNAN')</statement>
+<statement> INSERT INTO student VALUES(611,'14D260009','814 B','SUYASH KUMAR VERMA')</statement>
+<statement> INSERT INTO student VALUES(612,'14D260006','814 B','MITTAL NEHAL')</statement>
+<statement> INSERT INTO student VALUES(613,'14D260010','815 B','SINGH PRIYASH JITENDRA SINGH')</statement>
+<statement> INSERT INTO student VALUES(614,'14D260012','815 B','SHARMA AMRITESH AMAR NATH')</statement>
+<statement> INSERT INTO student VALUES(615,'14B030022','816 B','HARIT KUMAR RAKESH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(616,'14B030028','816 B','JHUNJHUNWALA RISHI RANDHIR')</statement>
+<statement> INSERT INTO student VALUES(617,'14B030004','817 B','SAVLA CHINTAN VIMAL')</statement>
+<statement> INSERT INTO student VALUES(618,'14B030016','817 B','JORWAL ABHISHEK PREM CHAND')</statement>
+<statement> INSERT INTO student VALUES(619,'14B030021','818 B','PAREKH JAYNEEL NEELKAMAL')</statement>
+<statement> INSERT INTO student VALUES(620,'14B030032','818 B','RIWAL ANILKUMAR ANOOPKUMAR')</statement>
+<statement> INSERT INTO student VALUES(621,'14B030020','901 B','SANADHYA ARCHIT ASHOK')</statement>
+<statement> INSERT INTO student VALUES(622,'14B030001','901 B','MEHTA KARAN NARESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(623,'140100103','902 B','VENKATA PRAVEEN BOKINALA')</statement>
+<statement> INSERT INTO student VALUES(624,'140100007','902 B','UTKARSH GUPTA')</statement>
+<statement> INSERT INTO student VALUES(625,'140100018','903 B','KENI PRANAV VIKAS')</statement>
+<statement> INSERT INTO student VALUES(626,'140100098','903 B','NEELARAPU SANDEEP N.VENKATESHWARLU')</statement>
+<statement> INSERT INTO student VALUES(627,'14B030029','904 B','JOHN LAZARUS BRAHMANANDAM')</statement>
+<statement> INSERT INTO student VALUES(628,'14B030023','904 B','NAVNEET MISHRA')</statement>
+<statement> INSERT INTO student VALUES(629,'14B030030','905 B','BOLI SETTY GOPALA KRISHNA SAI ROHAN')</statement>
+<statement> INSERT INTO student VALUES(630,'14B030028','905 B','ANAND ASTIK')</statement>
+<statement> INSERT INTO student VALUES(631,'14B030006','906 B','VIJAY SUBRAMANIAN')</statement>
+<statement> INSERT INTO student VALUES(632,'14B030026','906 B','SAURABH RITESH')</statement>
+<statement> INSERT INTO student VALUES(633,'140100014','907 B','SHANBHAG SOHAM SUBHASH')</statement>
+<statement> INSERT INTO student VALUES(634,'140100112','907 B','SANKAR ARAVIND SANKARANARAYANAN')</statement>
+<statement> INSERT INTO student VALUES(635,'140100065','908 B','AGRAWAL PRASAD AJAY')</statement>
+<statement> INSERT INTO student VALUES(636,'14B030010','908 B','VARGHESE FRANKLIN SHIBU')</statement>
+<statement> INSERT INTO student VALUES(637,'140100108','909 B','DINDIGALA PRUDHVICHARAN VENKATESHWARLU')</statement>
+<statement> INSERT INTO student VALUES(638,'140100054','909 B','SONI SUNNY SWAROOPCHAND')</statement>
+<statement> INSERT INTO student VALUES(639,'140100113','910 B','PK. MISHAL ASSIF')</statement>
+<statement> INSERT INTO student VALUES(640,'14B030018','910 B','IMMAD M.ANSARI')</statement>
+<statement> INSERT INTO student VALUES(641,'14B030003','911 B','CHOTAI CHIRAG SHAILENDRA')</statement>
+<statement> INSERT INTO student VALUES(642,'14B030014','912 B','RAJ KUMAR DAS BISHNUPADA DAS')</statement>
+<statement> INSERT INTO student VALUES(643,'14B030007','912 B','AGRAWAL ASHU GOPAL')</statement>
+<statement> INSERT INTO student VALUES(644,'140100042','913 B','SHIKHAR BUDHIRAJA V.K.BUDHIRAJA')</statement>
+<statement> INSERT INTO student VALUES(645,'140100106','913 B','RAJA RAVINDRANADH TRINADH')</statement>
+<statement> INSERT INTO student VALUES(646,'140100099','914 B','TANNERU SAI GOUTAM')</statement>
+<statement> INSERT INTO student VALUES(647,'140100013','914 B','BABHULKAR PRATIK DILIP')</statement>
+<statement> INSERT INTO student VALUES(648,'140100092','915 B','GANGAM VAMSHICHANDRA')</statement>
+<statement> INSERT INTO student VALUES(649,'140100075','915 B','PRIYADARSHI NEERESH REWASHANKAR')</statement>
+<statement> INSERT INTO student VALUES(650,'14B030009','916 B','GOLATKAR ADITYA SHARAD')</statement>
+<statement> INSERT INTO student VALUES(651,'14B030015','917 B','SHIVPUJE SAURABH BASWRAJ')</statement>
+<statement> INSERT INTO student VALUES(652,'14B030025','917 B','MANISH GODARA')</statement>
+<statement> INSERT INTO student VALUES(653,'14B030024','918 B','RAKESH CHANDRA SIYAG MAMRAJ SIYAG')</statement>
+<statement> INSERT INTO student VALUES(654,'14B030011','918 B','APURV VYAPARI')</statement>
+<statement> INSERT INTO student VALUES(655,'140020041','1001 B','KANDHARKAR SWAPNIL SANJAYRAO')</statement>
+<statement> INSERT INTO student VALUES(656,'140020097','1001 B','RAI ASHWIN')</statement>
+<statement> INSERT INTO student VALUES(657,'140020040','1002 B','KOTHAWADE SHUBHAM RAVINDRA')</statement>
+<statement> INSERT INTO student VALUES(658,'140020042','1002 B','AGARWAL PRNAV MAHENDRA')</statement>
+<statement> INSERT INTO student VALUES(659,'140020021','1003 B','LIMBODIA PARIICHAY ANIL')</statement>
+<statement> INSERT INTO student VALUES(660,'140020083','1003 B','SIDDHARTH BIRLA')</statement>
+<statement> INSERT INTO student VALUES(661,'140100062','1004 B','GUPTA ABHAS PRAMOD')</statement>
+<statement> INSERT INTO student VALUES(662,'140100053','1004 B','VERMA DHEERAJ KUMAR RAMPRASAD VERMA')</statement>
+<statement> INSERT INTO student VALUES(663,'140100069','1005 B','MAHESHWARI CHINMAY NARESH KUMAR KAHALYA')</statement>
+<statement> INSERT INTO student VALUES(664,'140100040','1005 B','SONI MAHESH KUMAR KAILASH CHAND')</statement>
+<statement> INSERT INTO student VALUES(665,'140100088','1006 B','BRAMHANE PIYUSH ANIL')</statement>
+<statement> INSERT INTO student VALUES(666,'140100071','1006 B','JAIN SANSKAR SUNIL KUMAR')</statement>
+<statement> INSERT INTO student VALUES(667,'140100039','1007 B','GIAKWAD ABHAY DASHARATH')</statement>
+<statement> INSERT INTO student VALUES(668,'140100017','1007 B','LAD MEHUL NITIN')</statement>
+<statement> INSERT INTO student VALUES(669,'140100052','1008 B','NATANI SHREYAM KAILASH')</statement>
+<statement> INSERT INTO student VALUES(670,'140100058','1008 B','CHOUDHARY JALARAM RAMLAL')</statement>
+<statement> INSERT INTO student VALUES(671,'140100068','1009 B','CHEETA HIMANSHU RAMESHWAR DAYAL MEENA')</statement>
+<statement> INSERT INTO student VALUES(672,'140100064','1009 B','BHADORIYA AYUSH JAGDISH')</statement>
+<statement> INSERT INTO student VALUES(673,'140020069','1010 B','SONI LOKESH')</statement>
+<statement> INSERT INTO student VALUES(674,'140020044','1010 B','INANI ADARSH AJAY')</statement>
+<statement> INSERT INTO student VALUES(675,'140020047','1011 B','PUNEKAR ADITYA SACHIN')</statement>
+<statement> INSERT INTO student VALUES(676,'140020023','1011 B','TIBREWAL HARSHVARDHAN RAJEEV')</statement>
+<statement> INSERT INTO student VALUES(677,'140020094','1012 B','TRIPATHI ANAY YUGUL KISHOR')</statement>
+<statement> INSERT INTO student VALUES(678,'140020113','1012 B','AJMEERA ROHITHKUMAR SAMMAIAH')</statement>
+<statement> INSERT INTO student VALUES(679,'140100057','1013 B','HARVEER SINGH JAGARWAR SHERSINGH JAGARWAR')</statement>
+<statement> INSERT INTO student VALUES(680,'140100056','1013 B','SHARMA AYUSH MANISH')</statement>
+<statement> INSERT INTO student VALUES(681,'140100001','1014 B','PAREKH MANMATH KARTIKEY')</statement>
+<statement> INSERT INTO student VALUES(682,'140100004','1014 B','AKUL ANANT CHAUDHARI')</statement>
+<statement> INSERT INTO student VALUES(683,'140100070','1015 B','AGRAWAL HARSHIT')</statement>
+<statement> INSERT INTO student VALUES(684,'140100051','1015 B','DEHGAL SHITANSHU DHANROOPMAL')</statement>
+<statement> INSERT INTO student VALUES(685,'140100019','1016 B','RAO PRATYARTH GIANCHAND')</statement>
+<statement> INSERT INTO student VALUES(686,'140100011','1016 B','PAREKH TANMAY DEVENDRA')</statement>
+<statement> INSERT INTO student VALUES(687,'140100031','1017 B','MESHRAM AYUSH DEEPAK')</statement>
+<statement> INSERT INTO student VALUES(688,'140100078','1017 B','GOYAL RISHABH GYANENDRA')</statement>
+<statement> INSERT INTO student VALUES(689,'140100030','1018 B','THAKRE RISHIKESH VIJAY')</statement>
+<statement> INSERT INTO student VALUES(690,'140100021','1018 B','BHANDARI PRANIT RAJEEV')</statement>
+<statement> INSERT INTO student VALUES(691,'140020119','101 C','BANSAL ARUSHI RAJIV ')</statement>
+<statement> INSERT INTO student VALUES(692,'140020110','101 C','AMBATI SLOKA')</statement>
+<statement> INSERT INTO student VALUES(693,'140020088','102 C','KUMARI PREETI ARBIND KUMAR')</statement>
+<statement> INSERT INTO student VALUES(694,'140020055','102 C','ARORA HIMANSHI GOPAL KUSHWA')</statement>
+<statement> INSERT INTO student VALUES(695,'140020079','103 C','SAHU SURBHI SURESH')</statement>
+<statement> INSERT INTO student VALUES(696,'140020011','103 C','GUPTA PRANJALI OMPRAKASH')</statement>
+<statement> INSERT INTO student VALUES(697,'140040093','104 C','SOMSAI DIVYA RAMESH')</statement>
+<statement> INSERT INTO student VALUES(698,'140020052','104 C','KHANDELWAL VAISHNAVI RAJKUMAR GUPTA')</statement>
+<statement> INSERT INTO student VALUES(699,'140020070','105 C','DIMPAL')</statement>
+<statement> INSERT INTO student VALUES(700,'140020091','105 C','KHETAN KANCHAN MANOJ')</statement>
+<statement> INSERT INTO student VALUES(701,'140050078','106 C','MUTYALA SOWMYA RAMESH')</statement>
+<statement> INSERT INTO student VALUES(702,'140050072','106 C','KAKADE KETAKI SATISH')</statement>
+<statement> INSERT INTO student VALUES(703,'','107 C','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(704,'','107 C','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(705,'140040015','108 C','UPADHYAY SHIEVANI ASHOK')</statement>
+<statement> INSERT INTO student VALUES(706,'140040081','108 C','MARIPI VACHIKA RAMAKRISHNA')</statement>
+<statement> INSERT INTO student VALUES(707,'140040092','109 C','NAGULAPALLY MOUNICA NARENDER')</statement>
+<statement> INSERT INTO student VALUES(708,'140040055','109 C','PODDAR ARUSHI MAHENDER')</statement>
+<statement> INSERT INTO student VALUES(709,'140020111','110 C','ALLIKANTI TEJASWINI RAVINDER')</statement>
+<statement> INSERT INTO student VALUES(710,'140040059','110 C','SEEMA MEENA LALBAHADUR MEENA')</statement>
+<statement> INSERT INTO student VALUES(711,'140040023','111 C','PATARE SHRADDHA BHASKARRAO')</statement>
+<statement> INSERT INTO student VALUES(712,'140040095','111 C','GUMIREDDY SUSHMITHASREE SREE RAMI REDDY')</statement>
+<statement> INSERT INTO student VALUES(713,'140050087','112 C','GAUR ASHNA SANJAY')</statement>
+<statement> INSERT INTO student VALUES(714,'140050051','112 C','K. SINDHURA')</statement>
+<statement> INSERT INTO student VALUES(715,'14B030002','113 C','MAHAPATRA SMRUTI KEDARNATH')</statement>
+<statement> INSERT INTO student VALUES(716,'14B030031','113 C','S.V.SHREE SOWNDARYA')</statement>
+<statement> INSERT INTO student VALUES(717,'14B030017','114 C','CHOUDHARY SHIVANI SHRAWAN')</statement>
+<statement> INSERT INTO student VALUES(718,'14B030027','114 C','RATHI MOHINI ARUN')</statement>
+<statement> INSERT INTO student VALUES(719,'140100050','115 C','MEDHE MITALI ANIL')</statement>
+<statement> INSERT INTO student VALUES(720,'140100102','115 C','RACHAMADUGO VYSALINIKHITA NAGESWARA RAO')</statement>
+<statement> INSERT INTO student VALUES(721,'14D100008','116 C','KHARIKAR SHRUTI JAGDISH')</statement>
+<statement> INSERT INTO student VALUES(722,'14D100006','116 C','PADUTHOLI GAURI RISHIKESAN')</statement>
+<statement> INSERT INTO student VALUES(723,'140260028','117 C','CHEEMALA SRAVANI CHANDRAMUKHI')</statement>
+<statement> INSERT INTO student VALUES(724,'140260023','117 C','MATHEW SHERYLL (LATE) MATHEW GEORGE')</statement>
+<statement> INSERT INTO student VALUES(725,'140260002','118 C','SABU SANJANA SABU MOHAMED')</statement>
+<statement> INSERT INTO student VALUES(726,'140260013','118 C','NANAWARE REVATI SURESH')</statement>
+<statement> INSERT INTO student VALUES(727,'140040035','201 C','BANSAL SHIVANI SURESH')</statement>
+<statement> INSERT INTO student VALUES(728,'140100094','201 C','BOTHRA TRISHALA SUNIL')</statement>
+<statement> INSERT INTO student VALUES(729,'14D070047','202 C','HIMANI SHISHU PAL')</statement>
+<statement> INSERT INTO student VALUES(730,'14D070023','202 C','SAROYA KOMAL RAJESH')</statement>
+<statement> INSERT INTO student VALUES(731,'140070010','203 C','SHALAKA KULKARNI')</statement>
+<statement> INSERT INTO student VALUES(732,'140070052','203 C','SRIRAMA SHREETHI')</statement>
+<statement> INSERT INTO student VALUES(733,'140070022','204 C','VITTHAL CHARVI BRAJESH')</statement>
+<statement> INSERT INTO student VALUES(734,'140070033','204 C','DEWANGAN RENUKA GIRDHARI LAL')</statement>
+<statement> INSERT INTO student VALUES(735,'14D070002','205 C','SHAH DHRUTI NILESH')</statement>
+<statement> INSERT INTO student VALUES(736,'14D070060','205 C','K. SAI MEGHNA')</statement>
+<statement> INSERT INTO student VALUES(737,'14D070059','206 C','TEDLA SUPRAJA SHANKAR')</statement>
+<statement> INSERT INTO student VALUES(738,'14D070016','206 C','HIRAY SHRUTI SHIVRAM')</statement>
+<statement> INSERT INTO student VALUES(739,'14D070062','207 C','BARRE PRATHYUSHA PRASAD')</statement>
+<statement> INSERT INTO student VALUES(740,'14D070024','207 C','DHAKE NISHA NITIN')</statement>
+<statement> INSERT INTO student VALUES(741,'140010054','208 C','YASHWANI K. MURTHY')</statement>
+<statement> INSERT INTO student VALUES(742,'140010061','208 C','HIMANI SINHMAR')</statement>
+<statement> INSERT INTO student VALUES(743,'140010006','209 C','VASANI VISHWA JIGNESH')</statement>
+<statement> INSERT INTO student VALUES(744,'140010053','209 C','AKSHATHA S.')</statement>
+<statement> INSERT INTO student VALUES(745,'140010043','210 C','TOPPO ILA SURENDER')</statement>
+<statement> INSERT INTO student VALUES(746,'140010031','210 C','VARSHNEY AAKRITI PRAVISH KUMART')</statement>
+<statement> INSERT INTO student VALUES(747,'140010032','211 C','JHARE RITU SEWARAM')</statement>
+<statement> INSERT INTO student VALUES(748,'140010037','211 C','R. BASUKHI')</statement>
+<statement> INSERT INTO student VALUES(749,'140010010','212 C','NIKAM PRANITA GORAKHNATH')</statement>
+<statement> INSERT INTO student VALUES(750,'140010028','212 C','SINGH NITYA RAJENDER SINGH')</statement>
+<statement> INSERT INTO student VALUES(751,'140110039','213 C','DOIFODE POOJA MADHUKARRAO')</statement>
+<statement> INSERT INTO student VALUES(752,'140110081','213 C','BISWAS SPRIHA SEBABRATA')</statement>
+<statement> INSERT INTO student VALUES(753,'140110087','214 C','DASOJU SRUTHA KEERTY BRAHMA CHARY')</statement>
+<statement> INSERT INTO student VALUES(754,'140110057','214 C','HIMANSHI SINGHAL SHYAM SUNDER SINGHAL')</statement>
+<statement> INSERT INTO student VALUES(755,'140110014','215 C','PARMAR HARITA PARSHOTTAM BHAI')</statement>
+<statement> INSERT INTO student VALUES(756,'140110005','215 C','MEHTA HIMANI PRANAY')</statement>
+<statement> INSERT INTO student VALUES(757,'145030019','216 C','DHAR MANIDEEPA ISWAPAN KR.DHAR')</statement>
+<statement> INSERT INTO student VALUES(758,'14i030004','216 C','SINGHAROY KANKONA CHANDAN SINGHA ROY')</statement>
+<statement> INSERT INTO student VALUES(759,'140110075','217 C','HARSHITA MOTWANI MAHESH MOTWANI')</statement>
+<statement> INSERT INTO student VALUES(760,'140110043','217 C','SINHA TANISHA ATULKUMAR')</statement>
+<statement> INSERT INTO student VALUES(761,'140110038','218 C','SAKSHI CHETULE')</statement>
+<statement> INSERT INTO student VALUES(762,'140110030','218 C','SHREYA TIWARI')</statement>
+<statement> INSERT INTO student VALUES(763,'140110041','301 C','THAKARE PRANJALI NATHU')</statement>
+<statement> INSERT INTO student VALUES(764,'140110034','301 C','SHETTY VEDIKA DEJAPPA')</statement>
+<statement> INSERT INTO student VALUES(765,'140110047','302 C','DESHPANDE SHACHI SHAILESH')</statement>
+<statement> INSERT INTO student VALUES(766,'140110024','302 C','SAWANT SANIA SHANKAR')</statement>
+<statement> INSERT INTO student VALUES(767,'14D110023','303 C','CHAVAN SHIVANI DATTATRAYA')</statement>
+<statement> INSERT INTO student VALUES(768,'14D110003','303 C','GAVIT TRUPTI GURUDATTA')</statement>
+<statement> INSERT INTO student VALUES(769,'14D110016','304 C','KATARIA TANVI AJAY')</statement>
+<statement> INSERT INTO student VALUES(770,'140110012','304 C','SHARMA ADITI ANIL KUMAR')</statement>
+<statement> INSERT INTO student VALUES(771,'148080001','305 C','SAXENA MOHINA')</statement>
+<statement> INSERT INTO student VALUES(772,'1480800416','305 C','DEEPALI SINGH')</statement>
+<statement> INSERT INTO student VALUES(773,'148080002','306 C','GOSWAMI ASMITA DINESH')</statement>
+<statement> INSERT INTO student VALUES(774,'148080003','306 C','BHATTACHARYA SREETAMA ANUP')</statement>
+<statement> INSERT INTO student VALUES(775,'148080014','307 C','VERMA AVLI RAJEEV')</statement>
+<statement> INSERT INTO student VALUES(776,'148080005','307 C','TASKAR ANERI MANISH')</statement>
+<statement> INSERT INTO student VALUES(777,'143060005','308 C','SHAIKH ERAM ABDULRAUF')</statement>
+<statement> INSERT INTO student VALUES(778,'14305R005','308 C','SANIA QAMAR')</statement>
+<statement> INSERT INTO student VALUES(779,'143040018','309 C','BOSE TULIKA KISHORE BOSE')</statement>
+<statement> INSERT INTO student VALUES(780,'143040053','309 C','PIPRI SHREYA KAMLESH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(781,'143040034','310 C','MUNGALA MANASA')</statement>
+<statement> INSERT INTO student VALUES(782,'143040030','310 C','DIVYA SAMHITHA CHUNDURI SUDHAKAR RAO')</statement>
+<statement> INSERT INTO student VALUES(783,'143110050','311 C','SHUKLA SHWETA D.K.')</statement>
+<statement> INSERT INTO student VALUES(784,'143040049','311 C','JUNGHARE VIPULA BABAN')</statement>
+<statement> INSERT INTO student VALUES(785,'1431110024','312 C','DHOKE SHEFALEE SIDDHARTHA')</statement>
+<statement> INSERT INTO student VALUES(786,'143110014','312 C','SURBHI BISEN')</statement>
+<statement> INSERT INTO student VALUES(787,'134080004','313 C','LAKSHMI M.')</statement>
+<statement> INSERT INTO student VALUES(788,'143050081','313 C','TELTUMDE PRIYANKA RASHTRAPAL')</statement>
+<statement> INSERT INTO student VALUES(789,'133350002','314 C','KANCHAN JOSHI')</statement>
+<statement> INSERT INTO student VALUES(790,'148080017','314 C','SETH TUSHA')</statement>
+<statement> INSERT INTO student VALUES(791,'136250011','315 C','REKHA R.')</statement>
+<statement> INSERT INTO student VALUES(792,'136250004','315 C','GADGIL UPASANA SUNIL')</statement>
+<statement> INSERT INTO student VALUES(793,'136330008','316 C','DHONE KALYANI SANJAY')</statement>
+<statement> INSERT INTO student VALUES(794,'136130001','316 C','GUIN SOHINI')</statement>
+<statement> INSERT INTO student VALUES(795,'136250012','317 C','BRAHMA KAVITA GIRISH')</statement>
+<statement> INSERT INTO student VALUES(796,'136250009','317 C','SALINKAR SHUBHANGI PRAVIN')</statement>
+<statement> INSERT INTO student VALUES(797,'144026016','318 C','RAI DEEPIKA G.C. RAI')</statement>
+<statement> INSERT INTO student VALUES(798,'135030008','318 C','SAHA JAYEETA')</statement>
+<statement> INSERT INTO student VALUES(799,'136340010','401 C','KADAM SAYALI RAMCHANDRA')</statement>
+<statement> INSERT INTO student VALUES(800,'136340013','401 C','SREELEKHA S.')</statement>
+<statement> INSERT INTO student VALUES(801,'136340009','402 C','JEAKS GAYATHRI MARTIN')</statement>
+<statement> INSERT INTO student VALUES(802,'136340001','402 C','CHOWDHARY KEERTI ANIL')</statement>
+<statement> INSERT INTO student VALUES(803,'133110055','403 C','DOLAI SHALINI')</statement>
+<statement> INSERT INTO student VALUES(804,'133110022','403 C','LAKRA REETUKA RAJESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(805,'135120020','404 C','RAHAMAN NAFIA MD.ANISUR')</statement>
+<statement> INSERT INTO student VALUES(806,'133110012','404 C','AMARA SRILAXMI SINDHURA')</statement>
+<statement> INSERT INTO student VALUES(807,'135090022','405 C','PARMAR DEEPIKA PRAMODKUMAR')</statement>
+<statement> INSERT INTO student VALUES(808,'143020065','405 C','SAINI NIRMALA')</statement>
+<statement> INSERT INTO student VALUES(809,'143180011','406 C','AISHWARYA PATANKAR')</statement>
+<statement> INSERT INTO student VALUES(810,'133110023','406 C','BISWAS JAYASREE NILMONI')</statement>
+<statement> INSERT INTO student VALUES(811,'136250001','407 C','RANA AYESHA MAJ. J.S.RANA')</statement>
+<statement> INSERT INTO student VALUES(812,'136250007','407 C','PATIL SNEHAL RAJENDRA')</statement>
+<statement> INSERT INTO student VALUES(813,'136250005','408 C','PANICKER GAURI KARUNAKARA')</statement>
+<statement> INSERT INTO student VALUES(814,'136250010','408 C','ANUPRIYA')</statement>
+<statement> INSERT INTO student VALUES(815,'138080001','409 C','ARGADE POONAM SURESH')</statement>
+<statement> INSERT INTO student VALUES(816,'138080002','409 C','SEBASTIAN PRIYA COL.K.J.SEBASTIAN')</statement>
+<statement> INSERT INTO student VALUES(817,'135090025','410 C','GUPTA MADHU VIJAYKUMAR')</statement>
+<statement> INSERT INTO student VALUES(818,'135090027','410 C','TANIA SAHA')</statement>
+<statement> INSERT INTO student VALUES(819,'138080006','411 C','IPSITA SAISREE GOLAKA BIHARI SINGH')</statement>
+<statement> INSERT INTO student VALUES(820,'138080011','411 C','TOPPO PRITI AGOSTINA')</statement>
+<statement> INSERT INTO student VALUES(821,'138080018','412 C','YASMIN ARA HUSSAIN MUZAMMIL')</statement>
+<statement> INSERT INTO student VALUES(822,'138080016','412 C','NAMCHU NELISSA IGNATIUS')</statement>
+<statement> INSERT INTO student VALUES(823,'139278006','413 C','ANURADHA GANESH')</statement>
+<statement> INSERT INTO student VALUES(824,'139278003','413 C','SHAH SHAHI TAPANBHAI')</statement>
+<statement> INSERT INTO student VALUES(825,'139278010','414 C','BHAGAT REETU PRAFULKUMAR')</statement>
+<statement> INSERT INTO student VALUES(826,'139278020','414 C','DEVIKA M.S.ASOKAN')</statement>
+<statement> INSERT INTO student VALUES(827,'139278025','415 C','BHUSHAN HONEY SHASHI')</statement>
+<statement> INSERT INTO student VALUES(828,'139278030','415 C','SHARMA SHILPI')</statement>
+<statement> INSERT INTO student VALUES(829,'139278046','416 C','NEGI JUHI')</statement>
+<statement> INSERT INTO student VALUES(830,'139278064','416 C','SONAM')</statement>
+<statement> INSERT INTO student VALUES(831,'133310011','417 C','NAGARE MADHURI MAHENDRA')</statement>
+<statement> INSERT INTO student VALUES(832,'143020030','417 C','MUSKAN')</statement>
+<statement> INSERT INTO student VALUES(833,'135090006','418 C','RAKHI RAJKUMAR')</statement>
+<statement> INSERT INTO student VALUES(834,'135090004','418 C','DUBEY INDIRA SATYA NARAYAN')</statement>
+<statement> INSERT INTO student VALUES(835,'133350012','501 C','SRIVASTAVA HARSHA KAMLESH')</statement>
+<statement> INSERT INTO student VALUES(836,'133350007','501 C','PANI PRAGYAN SAGARIKA KHITISH')</statement>
+<statement> INSERT INTO student VALUES(837,'13350018','502 C','RAJGADKAR PRIYANKA BHURAJSINGH')</statement>
+<statement> INSERT INTO student VALUES(838,'133350005','502 C','SRIVASTAVA SAUMYA ASHOKANAND')</statement>
+<statement> INSERT INTO student VALUES(839,'133350008','503 C','GUPTA AANCHAL ALOKDEEP')</statement>
+<statement> INSERT INTO student VALUES(840,'133350013','503 C','NAGPAL AKANKSHA SANJIV')</statement>
+<statement> INSERT INTO student VALUES(841,'143040066','504 C','AGARWAL PRAGYA')</statement>
+<statement> INSERT INTO student VALUES(842,'134406008','504 C','DEEPIKA SWAMI')</statement>
+<statement> INSERT INTO student VALUES(843,'133350004','505 C','NISHANE INDRAYANI JAYANT')</statement>
+<statement> INSERT INTO student VALUES(844,'133350010','505 C','SEETHARAMAN SANDHYA')</statement>
+<statement> INSERT INTO student VALUES(845,'133190006','506 C','THATOI PADMAJA')</statement>
+<statement> INSERT INTO student VALUES(846,'133190010','506 C','DUBEY PRIYA SRIKRISHNA')</statement>
+<statement> INSERT INTO student VALUES(847,'133170004','507 C','BATTULA SWATI')</statement>
+<statement> INSERT INTO student VALUES(848,'133170005','507 C','PENDHARKAR SURABHI GIRISH')</statement>
+<statement> INSERT INTO student VALUES(849,'135090010','508 C','JOSHI ANANTA P.C.JOSHI')</statement>
+<statement> INSERT INTO student VALUES(850,'13509003','508 C','GOEL KIRTI AJAY')</statement>
+<statement> INSERT INTO student VALUES(851,'133100073','509 C','MYSARI SWAPNA')</statement>
+<statement> INSERT INTO student VALUES(852,'143350035','509 C','POONAM JHARIA')</statement>
+<statement> INSERT INTO student VALUES(853,'133190011','510 C','BHARGAVA SHILPI')</statement>
+<statement> INSERT INTO student VALUES(854,'143050051','510 C','JAISWAL RUCHI ANILKUMAR')</statement>
+<statement> INSERT INTO student VALUES(855,'13307R001','511 C','KAPOOR SAKSHI JALAD')</statement>
+<statement> INSERT INTO student VALUES(856,'14i030002','511 C','PRIYA')</statement>
+<statement> INSERT INTO student VALUES(857,'13307R004','512 C','MAHESHWARI PRAGYA DEVENDRA')</statement>
+<statement> INSERT INTO student VALUES(858,'133079014','512 C','BATHIA KRUPA VRAJLAL')</statement>
+<statement> INSERT INTO student VALUES(859,'133079004','513 C','RAJBALA')</statement>
+<statement> INSERT INTO student VALUES(860,'133079013','513 C','FERNANDES BERYL ROBERT')</statement>
+<statement> INSERT INTO student VALUES(861,'13I180002','514 C','SOLANKI SHIVIKA')</statement>
+<statement> INSERT INTO student VALUES(862,'13I178003','514 C','SINGH SWATI KANDHAI')</statement>
+<statement> INSERT INTO student VALUES(863,'133079022','515 C','SAHAI MONIKA RAMSUKH')</statement>
+<statement> INSERT INTO student VALUES(864,'133079023','515 C','SHETH ZEAL JAYESH')</statement>
+<statement> INSERT INTO student VALUES(865,'133070067','516 C','ALLA LAKSHMI LALITHYA')</statement>
+<statement> INSERT INTO student VALUES(866,'133070038','516 C','REDDY NANDITHA')</statement>
+<statement> INSERT INTO student VALUES(867,'133010019','517 C','KRATIKA KHARE')</statement>
+<statement> INSERT INTO student VALUES(868,'133310017','517 C','MOHINI KARGAONKAR')</statement>
+<statement> INSERT INTO student VALUES(869,'133074004','518 C','GUPTA SONAL MAHESH')</statement>
+<statement> INSERT INTO student VALUES(870,'144034005','518 C','BHASKAR SUKRITEE SAJAL KANTI')</statement>
+<statement> INSERT INTO student VALUES(871,'133040026','601 C','NARABOYINA DEVIKA GANGADHAR')</statement>
+<statement> INSERT INTO student VALUES(872,'133040007','601 C','MARIAM THOMAS')</statement>
+<statement> INSERT INTO student VALUES(873,'133040016','602 C','CHAKRABORTY CHANDRANI')</statement>
+<statement> INSERT INTO student VALUES(874,'145030030','602 C','SEMANTI MUKHERJEE')</statement>
+<statement> INSERT INTO student VALUES(875,'133040018','603 C','MEENU P.S.')</statement>
+<statement> INSERT INTO student VALUES(876,'133040020','603 C','ASHA LATHA')</statement>
+<statement> INSERT INTO student VALUES(877,'13305R001','604 C','GUPTA DEEPALI DINESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(878,'13305R005','604 C','BHATTAD SHRADDHA ASHOK')</statement>
+<statement> INSERT INTO student VALUES(879,'13305R014','605 C','DEHANKAR SAMPADA SUDHAKAR')</statement>
+<statement> INSERT INTO student VALUES(880,'13305R015','605 C','SINGH MEENAKSHI')</statement>
+<statement> INSERT INTO student VALUES(881,'13305R016','606 C','CHIKHALE PRIYANKA MURLIDHAR')</statement>
+<statement> INSERT INTO student VALUES(882,'133059002','606 C','SAWANT PRIYANKA TULASIRAM')</statement>
+<statement> INSERT INTO student VALUES(883,'133040025','607 C','DAWN EMIL SEBASTIAN')</statement>
+<statement> INSERT INTO student VALUES(884,'133040024','607 C','AMRUTHA C.S.')</statement>
+<statement> INSERT INTO student VALUES(885,'133040028','608 C','JISHA JOSEPH')</statement>
+<statement> INSERT INTO student VALUES(886,'133040034','608 C','VARRI NAVYASREE')</statement>
+<statement> INSERT INTO student VALUES(887,'',' C','GUEST ROOOM')</statement>
+<statement> INSERT INTO student VALUES(888,'','609 C','GUEST ROOM')</statement>
+<statement> INSERT INTO student VALUES(889,'133040060','610 C','SWATHI SUNDER')</statement>
+<statement> INSERT INTO student VALUES(890,'133040058','610 C','VRINDA K.')</statement>
+<statement> INSERT INTO student VALUES(891,'133050002','611 C','LEKHA MURALIDHARAN')</statement>
+<statement> INSERT INTO student VALUES(892,'133050017','611 C','KHARDIKAR MAYURI SANJAY')</statement>
+<statement> INSERT INTO student VALUES(893,'133050020','612 C','SHARMA SUPRIYA ANILKUMAR')</statement>
+<statement> INSERT INTO student VALUES(894,'133050021','612 C','PATEL PRIYANKA R.K.')</statement>
+<statement> INSERT INTO student VALUES(895,'133050027','613 C','SHARMA RUHI VINODKUMAR')</statement>
+<statement> INSERT INTO student VALUES(896,'133050022','613 C','BHATTACHARYA SUSHMITA')</statement>
+<statement> INSERT INTO student VALUES(897,'133050059','614 C','GAUND PRATHIBA SURESH CHANDRA')</statement>
+<statement> INSERT INTO student VALUES(898,'133050035','614 C','MITRA MONAMI MUKUL')</statement>
+<statement> INSERT INTO student VALUES(899,'130050080','615 C','SHANKAR JYOTI RAM')</statement>
+<statement> INSERT INTO student VALUES(900,'130050089','615 C','RASHMI REKHA MECH')</statement>
+<statement> INSERT INTO student VALUES(901,'133050090','616 C','PULLELA NAGA VENKATA SAI R.')</statement>
+<statement> INSERT INTO student VALUES(902,'133050057','616 C','PANWAR DEEPA NARESH LAL')</statement>
+<statement> INSERT INTO student VALUES(903,'133010016','617 C','MADARI SONIKA')</statement>
+<statement> INSERT INTO student VALUES(904,'134048002','617 C','KADUSKAR SHREYA SHRIPAD')</statement>
+<statement> INSERT INTO student VALUES(905,'133050097','618 C','JYOTI')</statement>
+<statement> INSERT INTO student VALUES(906,'134406006','618 C','RASHMI SANYAL')</statement>
+<statement> INSERT INTO student VALUES(907,'135300005','701 C','YADAV MANISHA RABINDRA')</statement>
+<statement> INSERT INTO student VALUES(908,'13K410005','701 C','BISWAS SHYAMSHREE CHANDRA S.')</statement>
+<statement> INSERT INTO student VALUES(909,'135090005','702 C','GUPTA PRIYANKA ASHOK KUMAR')</statement>
+<statement> INSERT INTO student VALUES(910,'135090007','702 C','SAGAR UPASANA SURAJ BHAN')</statement>
+<statement> INSERT INTO student VALUES(911,'135030035','703 C','AGARWAL POOJA OMPRAKASH')</statement>
+<statement> INSERT INTO student VALUES(912,'12i030008','703 C','SASMAL SHEULI BANESWAR')</statement>
+<statement> INSERT INTO student VALUES(913,'133180002','704 C','KULASHETRA SMARIKA MOHAN K.')</statement>
+<statement> INSERT INTO student VALUES(914,'133180005','704 C','AGARWAL RASHMI BANWAR LAL')</statement>
+<statement> INSERT INTO student VALUES(915,'133180001','705 C','PANDE SONAL ABHAY')</statement>
+<statement> INSERT INTO student VALUES(916,'135300003','705 C','FUNG ROJEE')</statement>
+<statement> INSERT INTO student VALUES(917,'133310005','706 C','SYEDA TANZIMA HABIB')</statement>
+<statement> INSERT INTO student VALUES(918,'134083006','706 C','PANKHI AGARWAL')</statement>
+<statement> INSERT INTO student VALUES(919,'134076020','707 C','RAWAT AKANSHA ASHOK')</statement>
+<statement> INSERT INTO student VALUES(920,'133310013','707 C','ANUSHA S.')</statement>
+<statement> INSERT INTO student VALUES(921,'133123006','708 C','JABIN SADIQUE')</statement>
+<statement> INSERT INTO student VALUES(922,'133230006','708 C','APARNA MOHANKUMAR')</statement>
+<statement> INSERT INTO student VALUES(923,'133020008','709 C','AHANA S.')</statement>
+<statement> INSERT INTO student VALUES(924,'133020012','709 C','DURGA RAJA')</statement>
+<statement> INSERT INTO student VALUES(925,'133020014','710 C','GHOSH ARUNIMA')</statement>
+<statement> INSERT INTO student VALUES(926,'133020015','710 C','SEN TRISHA SARAJIT')</statement>
+<statement> INSERT INTO student VALUES(927,'133020017','711 C','AGARWAL PUJA HARI RAM')</statement>
+<statement> INSERT INTO student VALUES(928,'133020016','711 C','GUPTA MADHAVI MUKESH')</statement>
+<statement> INSERT INTO student VALUES(929,'134303015','712 C','AGARWAL RICHA')</statement>
+<statement> INSERT INTO student VALUES(930,'133020018','712 C','RAJOURIA SHIKHA RAJINDER')</statement>
+<statement> INSERT INTO student VALUES(931,'13i190004','801 C','SINGH MANISHA NITYANAND')</statement>
+<statement> INSERT INTO student VALUES(932,'135060011','801 C','VERMA NITESH BHAL SINGH')</statement>
+<statement> INSERT INTO student VALUES(933,'135320006','802 C','MISHRA SMITA SURESH')</statement>
+<statement> INSERT INTO student VALUES(934,'144350003','802 C','JAIN AYUSHI')</statement>
+<statement> INSERT INTO student VALUES(935,'149278064','803 C','RIDDHIMA GOHIL')</statement>
+<statement> INSERT INTO student VALUES(936,'149278060','803 C','SHRUTI BARAHPURIA')</statement>
+<statement> INSERT INTO student VALUES(937,'123050028','804 C','PATEL AKANSHA YOGESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(938,'144110003','804 C','G.KAMALAKSHI')</statement>
+<statement> INSERT INTO student VALUES(939,'135120023','805 C','KOYEL DAS')</statement>
+<statement> INSERT INTO student VALUES(940,'131030004','805 C','SOUMI TRIBEDI')</statement>
+<statement> INSERT INTO student VALUES(941,'149278097','806 C','I.A. L. SWETHA')</statement>
+<statement> INSERT INTO student VALUES(942,'149278069','806 C','RONGJALI BASUMATRY')</statement>
+<statement> INSERT INTO student VALUES(943,'13i180005','807 C','SONI AMRITA SUBHASH CHANDRA')</statement>
+<statement> INSERT INTO student VALUES(944,'13i190006','807 C','KATARA ADITI VINOD')</statement>
+<statement> INSERT INTO student VALUES(945,'135120002','808 C','SHAH EKTA ARUNKUMAR')</statement>
+<statement> INSERT INTO student VALUES(946,'13i190008','808 C','PRANJALI YADAV SURESHKUMAR')</statement>
+<statement> INSERT INTO student VALUES(947,'136250014','809 C','MASURKAR POOJA PRASHANT')</statement>
+<statement> INSERT INTO student VALUES(948,'134174002','809 C','SOWMIYA THEVAPRAKASHAM')</statement>
+<statement> INSERT INTO student VALUES(949,'134046011','810 C','LAKSHMI V.V.')</statement>
+<statement> INSERT INTO student VALUES(950,'134354001','810 C','BANERJEE JHUMUR ASIT')</statement>
+<statement> INSERT INTO student VALUES(951,'10D110008','811 C','JACOB ACHITA')</statement>
+<statement> INSERT INTO student VALUES(952,'144230002','811 C','MARIA THOMAS')</statement>
+<statement> INSERT INTO student VALUES(953,'100010047','812 C','NEHA INNAJE')</statement>
+<statement> INSERT INTO student VALUES(954,'10D260008','812 C','PURWAR PARUL PRABHAT KUMAR')</statement>
+<statement> INSERT INTO student VALUES(955,'135030036','813 C','ANASUA MUKHOPADHYAY')</statement>
+<statement> INSERT INTO student VALUES(956,'135030038','813 C','RATNAMALA MANDAL')</statement>
+<statement> INSERT INTO student VALUES(957,'101030002','814 C','VANI BODI')</statement>
+<statement> INSERT INTO student VALUES(958,'101030028','814 C','LEWIS MERYL')</statement>
+<statement> INSERT INTO student VALUES(959,'100010001','815 C','SHUKLA POORVA JAHNU')</statement>
+<statement> INSERT INTO student VALUES(960,'100070043','815 C','UPASANA HEMBRAM')</statement>
+<statement> INSERT INTO student VALUES(961,'100010008','816 C','SANTURKAR SHIBANI VINAY')</statement>
+<statement> INSERT INTO student VALUES(962,'100010046','816 C','AMUTHA BHAVARAJU')</statement>
+<statement> INSERT INTO student VALUES(963,'149278023','817 C','SHIVANI AGARWAL')</statement>
+<statement> INSERT INTO student VALUES(964,'149278025','817 C','GUNBEEN KAUR')</statement>
+<statement> INSERT INTO student VALUES(965,'149278001','818 C','SMITA MINJ')</statement>
+<statement> INSERT INTO student VALUES(966,'149278087','818 C','KAMINEE')</statement>
+<statement> INSERT INTO student VALUES(967,'134033009','901 C','B.MANJUSHA')</statement>
+<statement> INSERT INTO student VALUES(968,'134033004','901 C','SHUKLA PRAGYA SHRIKANT')</statement>
+<statement> INSERT INTO student VALUES(969,'134033011','902 C','BASU PALLIBITA PALLAB')</statement>
+<statement> INSERT INTO student VALUES(970,'134090001','902 C','MUKERJEE DEBASMITA DUJRGA DAS')</statement>
+<statement> INSERT INTO student VALUES(971,'134053001','903 C','SHAH RINKU')</statement>
+<statement> INSERT INTO student VALUES(972,'134046004','903 C','M.S.SUSHAMA')</statement>
+<statement> INSERT INTO student VALUES(973,'134040002','904 C','SHIRBATE NEHA PRADEEPRAO')</statement>
+<statement> INSERT INTO student VALUES(974,'134040003','904 C','SREEDEVI S.')</statement>
+<statement> INSERT INTO student VALUES(975,'135030005','905 C','GUPTA KHUSHBOO VIJAY GUPTA')</statement>
+<statement> INSERT INTO student VALUES(976,'135090017','905 C','RANA SHABNAM RAJENDRA SINGH')</statement>
+<statement> INSERT INTO student VALUES(977,'134403002','906 C','PRIYANKA')</statement>
+<statement> INSERT INTO student VALUES(978,'134403001','906 C','MALAKAR KRISHNA')</statement>
+<statement> INSERT INTO student VALUES(979,'143190017','907 C','ANUJI')</statement>
+<statement> INSERT INTO student VALUES(980,'134050004','907 C','KOLEY PARAMITA JOYDEB')</statement>
+<statement> INSERT INTO student VALUES(981,'144300005','908 C','AFSANA NAAZ J. ALI SIDDIQUI')</statement>
+<statement> INSERT INTO student VALUES(982,'134363001','908 C','PRIYA SHRIVASTAVA (VACCATED THE ROOM ON 10/10/2014)')</statement>
+<statement> INSERT INTO student VALUES(983,'144118003','909 C','NADIMINTI UMASREEDEVI SURYANARAYAN MURTHY')</statement>
+<statement> INSERT INTO student VALUES(984,'134050006','909 C','JAIN NEHUL ASHOK KUMAR')</statement>
+<statement> INSERT INTO student VALUES(985,'134060005','910 C','BHARADWAJ  ANAMIKA UMESH KUMAR')</statement>
+<statement> INSERT INTO student VALUES(986,'135280028','910 C','MIRDHA ANKITA ASHIM')</statement>
+<statement> INSERT INTO student VALUES(987,'134302002','911 C','DEY VISHAKA')</statement>
+<statement> INSERT INTO student VALUES(988,'134033019','911 C','BHULBALRAO RUCHIKA N.')</statement>
+<statement> INSERT INTO student VALUES(989,'131120004','912 C','GANGWAR RASHMI VIDYA SWAROOP')</statement>
+<statement> INSERT INTO student VALUES(990,'135120024','912 C','SOMA SAHA')</statement>
+<statement> INSERT INTO student VALUES(991,'144123002','913 C','ANSARI JRFANA NEYAZ')</statement>
+<statement> INSERT INTO student VALUES(992,'134406001','913 C','DEEPA MORE')</statement>
+<statement> INSERT INTO student VALUES(993,'13i030002','914 C','PRADHAN KABITA NIHIL RANJAN')</statement>
+<statement> INSERT INTO student VALUES(994,'13i030005','914 C','BANIK TRISHA SWAPAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(995,'134110005','915 C','THAMARAI SELVI NATARAJAN')</statement>
+<statement> INSERT INTO student VALUES(996,'134310003','916 C','AMRUTKAR RUSHANKA PRAMOD')</statement>
+<statement> INSERT INTO student VALUES(997,'134236001','916 C','SHARU THERESA JOSE')</statement>
+<statement> INSERT INTO student VALUES(998,'134110002','917 C','SHAIKH AASIYABANI ABDUL RAUF')</statement>
+<statement> INSERT INTO student VALUES(999,'144056001','917 C','NAIK PRIYANKA PRAKASH')</statement>
+<statement> INSERT INTO student VALUES(1000,'134104001','918 C','LAVNYA SETHURAMAN')</statement>
+<statement> INSERT INTO student VALUES(1001,'135280015','918 C','PRATIKSHA')</statement>
+<statement> INSERT INTO student VALUES(1002,'1001','P C','DR. VARSHA JAIN ((PS)')</statement>
+<statement> INSERT INTO student VALUES(1003,'144114002','1001 C','GAYATHRI SRIDHAR')</statement>
+<statement> INSERT INTO student VALUES(1004,'144104005','1002 C','GUPTA PRAGYA')</statement>
+<statement> INSERT INTO student VALUES(1005,'144086001','1002 C','PARANJAPE JAI JAYWANT')</statement>
+<statement> INSERT INTO student VALUES(1006,'144300002','1003 C','SRISATHYA SRINIVASAN')</statement>
+<statement> INSERT INTO student VALUES(1007,'144023005','1003 C','HONEY PRIYA JAMES')</statement>
+<statement> INSERT INTO student VALUES(1008,'144070007','1004 C','SADAF UL ZUHRA')</statement>
+<statement> INSERT INTO student VALUES(1009,'134080009','1004 C','PARVATHY RAJENDRAN')</statement>
+<statement> INSERT INTO student VALUES(1010,'134170004','1005 C','AMMU SUSANNA JACOB')</statement>
+<statement> INSERT INTO student VALUES(1011,'134303011','1005 C','SHUVOLINA MUKHERJEE')</statement>
+<statement> INSERT INTO student VALUES(1012,'134303010','1006 C','MANUBHAI K.P.')</statement>
+<statement> INSERT INTO student VALUES(1013,'134170002','1006 C','SWETA SHRINIVASAN')</statement>
+<statement> INSERT INTO student VALUES(1014,'144300004','1007 C','SANE AAKANKSHA JAYANT')</statement>
+<statement> INSERT INTO student VALUES(1015,'144120004','1007 C','NAIK BHARATI')</statement>
+<statement> INSERT INTO student VALUES(1016,'134083003','1008 C','GAYATHRI GOPALAKRISHNAN')</statement>
+<statement> INSERT INTO student VALUES(1017,'134683001','1008 C','DHANYASHREE BHUVANADAS')</statement>
+<statement> INSERT INTO student VALUES(1018,'134123001','1009 C','AMRITA DEY')</statement>
+<statement> INSERT INTO student VALUES(1019,'134303006','1009 C','CHANDRA SUTAPA SAMIR')</statement>
+<statement> INSERT INTO student VALUES(1020,'14I030003','1010 C','SUKRITI SINGH')</statement>
+<statement> INSERT INTO student VALUES(1021,'14I030005','1010 C','MONDAL SUMANA GOUTAM')</statement>
+<statement> INSERT INTO student VALUES(1022,'134300007','1011 C','MONDAL DEBASMITA BIMAN KUMAR')</statement>
+<statement> INSERT INTO student VALUES(1023,'134303016','1011 C','GAYATHRI S.')</statement>
+<statement> INSERT INTO student VALUES(1024,'134300011','1012 C','CHADUVULA UMA')</statement>
+<statement> INSERT INTO student VALUES(1025,'144300301','1012 C','RISHU TIWARI')</statement>
+<statement> INSERT INTO student VALUES(1026,'134300007','1013 C','KARISHMA MOHAN')</statement>
+<statement> INSERT INTO student VALUES(1027,'134300001','1013 C','KAMINI OMPRAKASH')</statement>
+<statement> INSERT INTO student VALUES(1028,'134180001','1014 C','DASGUPTA ARPITA ASHIM')</statement>
+<statement> INSERT INTO student VALUES(1029,'134040015','1014 C','R.B.SHARMILA')</statement>
+<statement> INSERT INTO student VALUES(1030,'134300002','1015 C','MASTUD PRAGATI ANAND')</statement>
+<statement> INSERT INTO student VALUES(1031,'134024002','1015 C','MAANYA GAUR')</statement>
+<statement> INSERT INTO student VALUES(1032,'P13390','1016 C','PRANISHA SHRESTHA')</statement>
+<statement> INSERT INTO student VALUES(1033,'','1016 C','SINGLE OCCUPANT')</statement>
+<statement> INSERT INTO student VALUES(1034,'134300005','1017 C','NANDINI GIRI')</statement>
+<statement> INSERT INTO student VALUES(1035,'134303008','1017 C','APPROVA VENKATESH')</statement>
+<statement> INSERT INTO student VALUES(1036,'135320004','1018 C','SINGHAL SAKSHI K.S.SINGHAL')</statement>
+<statement> INSERT INTO student VALUES(1037,'13i320002','1018 C','KUMARI POOJA MANOJ KUMAR')</statement>
+
+</sql>
